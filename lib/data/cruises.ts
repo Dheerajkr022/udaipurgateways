@@ -143,12 +143,12 @@ export const mockCruises: Cruise[] = [
       { name: "Island Exploration", icon: "music" }
     ],
     destinationsCovered: [
-      { name: "Lake Pichola", description: "Udaipur's iconic lake created in 1362 AD.", image: "/destinations/lake-pichola.jpg" },
+      { name: "Lake Pichola", description: "Udaipur's iconic lake created in 1362 AD.", image: "/destinations/lake-pichola-sunset.jpg" },
       { name: "Jag Mandir Island", description: "17th-century island palace.", image: "/cruise/cordella.jpg" },
-      { name: "City Palace Waterfront", description: "Towering Mewar royal facade.", image: "/destinations/city-palace.jpg" },
+      { name: "City Palace Waterfront", description: "Towering Mewar royal facade.", image: "/destinations/city-palace-complex.jpg" },
       { name: "Gangaur Ghat", description: "Cultural waterfront steps.", image: "/packages/weekend.jpg" },
-      { name: "Arsi Vilas", description: "Historic royal bird sanctuary island.", image: "/destinations/lake-pichola.jpg" },
-      { name: "Ambrai Ghat", description: "Romantic twilight viewpoint.", image: "/destinations/lake-pichola.jpg" }
+      { name: "Arsi Vilas", description: "Historic royal bird sanctuary island.", image: "/destinations/lake-pichola-sunset.jpg" },
+      { name: "Ambrai Ghat", description: "Romantic twilight viewpoint.", image: "/destinations/lake-pichola-sunset.jpg" }
     ],
     included: [
       "Scenic boat cruise across Lake Pichola",
@@ -233,7 +233,7 @@ export const mockCruises: Cruise[] = [
     ],
     destinationsCovered: [
       { name: "Jag Mandir Island", description: "Historic Lake Garden Palace.", image: "/cruise/cordella.jpg" },
-      { name: "Lake Pichola", description: "Scenic waters of Udaipur.", image: "/destinations/lake-pichola.jpg" }
+      { name: "Lake Pichola", description: "Scenic waters of Udaipur.", image: "/destinations/lake-pichola-sunset.jpg" }
     ],
     included: [
       "Round-trip boat transport to Jag Mandir",
@@ -307,7 +307,7 @@ export const mockCruises: Cruise[] = [
       { name: "Solar Tech Experience", icon: "users" }
     ],
     destinationsCovered: [
-      { name: "Fateh Sagar Lake", description: "Scenic northern lake of Udaipur.", image: "/destinations/fateh-sagar.jpg" },
+      { name: "Fateh Sagar Lake", description: "Scenic northern lake of Udaipur.", image: "/destinations/fateh-sagar-lake.jpg" },
       { name: "Nehru Park Island", description: "Central garden island.", image: "/cruise/celebrity.jpg" }
     ],
     included: ["Boat ride to and from Nehru Park", "Island access", "Life jackets"],

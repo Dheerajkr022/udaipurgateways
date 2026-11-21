@@ -190,7 +190,7 @@ export const mockHotels: Hotel[] = [
     description: "Perched gracefully near the shores of Fateh Sagar Lake, Radisson Blu Udaipur Palace Resort & Spa offers a harmonious blend of royal Rajasthani architecture and modern international hospitality. Featuring sprawling two-tier outdoor swimming pools, palace-style domed pavilions, world-class banquet gardens, and wellness facilities, it is an outstanding property for romantic getaways, family holidays, and grand destination events.",
     quote: "A palace sanctuary of comfort and hospitality in Udaipur.",
     heroImage: "/hotels-cruises/stregis.jpg",
-    gallery: ["/hotels-cruises/stregis.jpg", "/destinations/fateh-sagar.jpg", "/hotels-cruises/superior-room.jpg"],
+    gallery: ["/hotels-cruises/stregis.jpg", "/destinations/fateh-sagar-lake.jpg", "/hotels-cruises/superior-room.jpg"],
     propertyType: "Palace Resort & Spa",
     idealFor: "Families, Couples, Destination Weddings & Business Retreats",
     checkIn: "2:00 PM",
@@ -203,9 +203,9 @@ export const mockHotels: Hotel[] = [
       { name: "Wok & Burn", description: "Asian specialty cuisine and sizzling culinary presentations.", image: "/images/cafe.jpeg" },
     ],
     nearbyPlaces: [
-      { name: "Fateh Sagar Lake", distance: "0.5 km", image: "/destinations/fateh-sagar.jpg" },
+      { name: "Fateh Sagar Lake", distance: "0.5 km", image: "/destinations/fateh-sagar-lake.jpg" },
       { name: "Sahelion Ki Bari", distance: "2.5 km", image: "/packages/family.jpg" },
-      { name: "Sajjangarh Monsoon Palace", distance: "5.0 km", image: "/destinations/sajjangarh.jpg" },
+      { name: "Sajjangarh Monsoon Palace", distance: "5.0 km", image: "/destinations/sajjangarh-monsoon-palace.jpg" },
     ],
     faqs: [
       { question: "Does the hotel have lake-facing rooms?", answer: "Yes, Superior and Suite categories offer panoramic views of Fateh Sagar Lake and the surrounding hills." },
