@@ -10,11 +10,11 @@ export default function Footer() {
         <div className="col-span-2 lg:col-span-1">
           <div className="mb-4">
             <h3 className="text-2xl font-bold leading-none tracking-tight">UDAIPUR GATEWAY</h3>
-            <span className="text-xs text-gray-300 tracking-wider font-medium block mt-1.5">
-              Independent Travel Agency, Travel Information and Courier Assistance
+            <span className="text-xs text-gray-300 tracking-wider font-semibold block mt-1.5">
+              Nothing Like Travel LLP
             </span>
             <span className="text-xs text-gray-400 font-normal block mt-1">
-              Your Trusted Guide to Udaipur & Rajasthan Travel Experiences
+              Independent Travel Agency, Travel Information and Courier Assistance
             </span>
           </div>
           <p className="text-gray-300 mb-6 text-sm leading-relaxed max-w-sm">
@@ -84,7 +84,7 @@ export default function Footer() {
               IMPORTANT INFORMATION
             </h4>
             <p className="text-xs md:text-sm text-gray-300 leading-relaxed">
-              Udaipur Gateway is an independent travel agency, travel information and courier assistance service. This website is 100% informational and does not process online bookings, reservations, or financial transactions. Rates, visiting schedules, and availability may vary and are determined by the respective property owners, monument authorities, and transport providers.
+              Udaipur Gateway, operated by Nothing Like Travel LLP (GSTIN: 09AAZFN6228N1Z7), is an independent travel agency, travel information and courier assistance service. This website is 100% informational and does not process online bookings, reservations, or financial transactions. Rates, visiting schedules, and availability may vary and are determined by the respective property owners, monument authorities, and transport providers.
             </p>
           </div>
         </div>
@@ -99,7 +99,7 @@ export default function Footer() {
               DISCLAIMER
             </h4>
             <p className="text-xs md:text-sm text-gray-300 leading-relaxed">
-              Udaipur Gateway operates as an independent travel information and courier assistance agency. We are not the owner, operator, booking engine, or official representative of any hotel, palace, resort, monument trust, or cruise company mentioned on this website. All brand names, trade marks, and property logos belong to their respective owners.
+              Udaipur Gateway is operated by Nothing Like Travel LLP, an independent travel information and courier assistance agency. We are not the owner, operator, booking engine, or official representative of any hotel, palace, resort, monument trust, or cruise company mentioned on this website. All brand names, trade marks, and property logos belong to their respective owners.
             </p>
           </div>
         </div>
@@ -109,8 +109,8 @@ export default function Footer() {
       <div className="bg-primary text-xs border-t border-primary-light">
         <div className="container mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-gray-300">
-            &copy; {new Date().getFullYear()} Udaipur Gateway. All rights reserved.<br />
-            Independent Travel Agency, Travel Information and Courier Assistance
+            &copy; {new Date().getFullYear()} Nothing Like Travel LLP. All rights reserved.<br />
+            GSTIN: 09AAZFN6228N1Z7 | Independent Travel Agency, Travel Information and Courier Assistance
           </div>
           <div className="flex flex-wrap gap-4 text-gray-400">
             <Link href="/disclaimer" className="hover:text-white transition-colors">Disclaimer</Link>

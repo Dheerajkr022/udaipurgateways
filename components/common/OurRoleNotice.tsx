@@ -14,7 +14,7 @@ export default function OurRoleNotice({ className = "", isSection = false }: Our
       </div>
       <div className="space-y-4 text-sm sm:text-[15px] text-gray-600 leading-relaxed">
         <p>
-          <strong>Udaipur Gateway</strong> is an independent travel agency, travel information and courier assistance provider based in Udaipur, Rajasthan.
+          <strong>Udaipur Gateway</strong> is operated by <strong>Nothing Like Travel LLP</strong> (GSTIN: 09AAZFN6228N1Z7), an independent travel agency, travel information and courier assistance provider based in Udaipur, Rajasthan.
         </p>
         <p>
           We provide general travel information, sightseeing guidance, itinerary suggestions, and enquiry assistance for hotels, resorts, palaces, lake cruises, and courier services.

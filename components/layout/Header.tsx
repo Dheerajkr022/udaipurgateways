@@ -27,7 +27,10 @@ export default function Header() {
           <span className="text-xl sm:text-2xl font-extrabold text-primary tracking-tight leading-none">
             UDAIPUR GATEWAY
           </span>
-          <span className="text-[10px] sm:text-[11px] text-text-secondary tracking-wide font-medium mt-1 leading-none max-w-[240px] sm:max-w-xs md:max-w-none truncate sm:whitespace-normal">
+          <span className="text-[10px] sm:text-xs text-text-secondary tracking-wider font-semibold mt-1">
+            Nothing Like Travel LLP
+          </span>
+          <span className="text-[9px] sm:text-[10px] text-text-secondary/80 font-normal tracking-tight mt-0.5 hidden sm:block">
             Independent Travel Agency, Travel Information and Courier Assistance
           </span>
         </Link>

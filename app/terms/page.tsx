@@ -18,7 +18,7 @@ export default function TermsPage() {
             
             <h2 className="text-xl font-bold text-primary mt-8 mb-4">1. Acceptance of Terms</h2>
             <p>
-              By accessing the website at Udaipur Gateway, you agree to comply with these terms of service and all applicable laws and regulations. Udaipur Gateway operates as an Independent Travel Agency, Travel Information and Courier Assistance service based in Udaipur, Rajasthan.
+              By accessing the website at Udaipur Gateway, you agree to comply with these terms of service and all applicable laws and regulations. Udaipur Gateway is operated by Nothing Like Travel LLP (GSTIN: 09AAZFN6228N1Z7), an Independent Travel Agency, Travel Information and Courier Assistance service based in Udaipur, Rajasthan.
             </p>
 
             <h2 className="text-xl font-bold text-primary mt-8 mb-4">2. Nature of Website (100% Informational)</h2>

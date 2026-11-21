@@ -18,7 +18,7 @@ export default function DisclaimerPage() {
             
             <h2 className="text-xl font-bold text-primary mt-8 mb-4">1. General Informational Disclaimer</h2>
             <p>
-              Udaipur Gateway is an independent travel agency, travel information and courier assistance service based in Udaipur, Rajasthan. This website is 100% informational. Udaipur Gateway does not operate an online booking engine, reservation cart, or payment checkout system on this website.
+              Udaipur Gateway, operated by Nothing Like Travel LLP (GSTIN: 09AAZFN6228N1Z7), is an independent travel agency, travel information and courier assistance service based in Udaipur, Rajasthan. This website is 100% informational. Udaipur Gateway does not operate an online booking engine, reservation cart, or payment checkout system on this website.
             </p>
             <p>
               Udaipur Gateway assumes no responsibility for errors, inaccuracies, or omissions in the contents of the Service. In no event shall Udaipur Gateway be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever arising out of or in connection with the use of the Service or the travel guidance provided.

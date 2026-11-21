@@ -13,12 +13,12 @@ export default function PrivacyPolicyPage() {
           <h1 className="text-3xl font-bold text-primary mb-8">Privacy Policy</h1>
           <div className="prose prose-blue max-w-none text-gray-600 space-y-6">
             <p className="lead text-lg font-medium text-gray-800">
-              Your privacy is important to us. It is Udaipur Gateway&apos;s policy to respect your privacy regarding any information we may collect from you across our website.
+              Your privacy is important to us. It is the policy of Udaipur Gateway, operated by Nothing Like Travel LLP (GSTIN: 09AAZFN6228N1Z7), to respect your privacy regarding any information we may collect from you across our website.
             </p>
             
             <h2 className="text-xl font-bold text-primary mt-8 mb-4">1. Information We Collect</h2>
             <p>
-              We only ask for personal contact details when you willingly submit a travel enquiry, request itinerary guidance, or ask for courier assistance. We collect information by fair and lawful means, with your knowledge and consent.
+              We only ask for personal contact details when you willingly submit a travel enquiry, request itinerary guidance, or ask for courier assistance. We collect information by fair and lawful means, with your knowledge and consent, for services managed by Nothing Like Travel LLP.
             </p>
             <p>
               The types of personal information we may collect include your name, email address, phone number, destination preferences, and travel dates submitted via our enquiry forms. We do not collect online financial payment data or credit card numbers on this website.

@@ -143,14 +143,17 @@ export default function AboutPage() {
                 UDAIPUR GATEWAY
               </h2>
               <p className="text-xs font-semibold text-gray-500 tracking-wide uppercase mt-0.5">
-                INDEPENDENT TRAVEL AGENCY, TRAVEL INFORMATION AND COURIER ASSISTANCE
+                OPERATED BY NOTHING LIKE TRAVEL LLP | GSTIN: 09AAZFN6228N1Z7
+              </p>
+              <p className="text-[11px] text-accent font-semibold tracking-wide uppercase mt-0.5">
+                Independent Travel Agency, Travel Information and Courier Assistance
               </p>
             </div>
             <p className="text-xs sm:text-sm text-gray-700 leading-relaxed max-w-xl">
-              Udaipur Gateway is your dedicated travel advisory partner and courier assistance service based in Udaipur, Rajasthan. We provide genuine travel information, sightseeing guidance, itinerary suggestions, and enquiry support for heritage palaces, lakefront resorts, lake cruises, and regional Mewar excursions.
+              Udaipur Gateway, operated by Nothing Like Travel LLP, is your dedicated travel advisory partner and courier assistance service based in Udaipur, Rajasthan. We provide genuine travel information, sightseeing guidance, itinerary suggestions, and enquiry support for heritage palaces, lakefront resorts, lake cruises, and regional Mewar excursions.
             </p>
             <p className="text-xs text-gray-500 leading-relaxed mt-3 max-w-xl">
-              Located in the heart of Udaipur, Rajasthan, our mission is to ensure visitors experience the City of Lakes with complete clarity, honest advice, and dependable travel and courier assistance.
+              Nothing Like Travel LLP is a registered travel agency dedicated to making every journey through Udaipur and Rajasthan smooth, transparent, and memorable.
             </p>
           </div>
         </div>
@@ -301,7 +304,7 @@ export default function AboutPage() {
                 OUR ROLE & INDEPENDENCE
               </h3>
               <p className="text-xs text-gray-700 leading-relaxed mb-3">
-                Udaipur Gateway is an independent travel agency, travel information and courier assistance provider based in Udaipur, Rajasthan. We provide general travel information, sightseeing guidance, local excursion assistance, and courier enquiry support.
+                Udaipur Gateway is operated by Nothing Like Travel LLP (GSTIN: 09AAZFN6228N1Z7), an independent travel agency, travel information and courier assistance provider based in Udaipur, Rajasthan. We provide general travel information, sightseeing guidance, local excursion assistance, and courier enquiry support.
               </p>
               <p className="text-xs font-bold text-gray-900 leading-relaxed">
                 This website is 100% informational. We do not take online bookings or process payments. We are not the owner, operator, or official representative of any hotel, palace, resort, attraction, transport service, or activity provider unless specifically stated.

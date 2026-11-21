@@ -13,7 +13,7 @@ export default function CancellationPolicyPage() {
           <h1 className="text-3xl font-bold text-primary mb-8">Cancellation Policy</h1>
           <div className="prose prose-blue max-w-none text-gray-600 space-y-6">
             <p className="lead text-lg font-medium text-gray-800">
-              Udaipur Gateway is an independent travel agency, travel information and courier assistance service. This website is purely informational and does not process online bookings or payments directly.
+              Udaipur Gateway, operated by Nothing Like Travel LLP (GSTIN: 09AAZFN6228N1Z7), is an independent travel agency, travel information and courier assistance service. This website is purely informational and does not process online bookings or payments directly.
             </p>
             
             <h2 className="text-xl font-bold text-primary mt-8 mb-4">1. Informational Service Notice</h2>

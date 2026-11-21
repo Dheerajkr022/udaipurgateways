@@ -9,8 +9,8 @@ export default function IndependentNotice() {
             <Info className="w-4 h-4 stroke-[2.2]" />
           </div>
           <p className="text-sm md:text-[15px] text-gray-800 leading-relaxed">
-            <strong className="font-bold text-gray-900">Udaipur Gateway is an independent travel agency, travel information and courier assistance service.</strong>{" "}
-            We provide verified travel information, sightseeing guidance, and enquiry assistance in Udaipur & Rajasthan. This website is purely informational and does not process bookings or transactions.
+            <strong className="font-bold text-gray-900">Udaipur Gateway is operated by Nothing Like Travel LLP</strong>{" "}
+            (GSTIN: 09AAZFN6228N1Z7), an independent travel agency, travel information and courier assistance service. We provide verified travel information, sightseeing guidance, and enquiry assistance in Udaipur &amp; Rajasthan. This website is purely informational and does not process bookings or transactions.
           </p>
         </div>
       </div>
