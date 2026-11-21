@@ -35,14 +35,14 @@ export const mockDestinations: Destination[] = [
     highlights: ["Sunset Boat Cruises", "Jag Mandir Island Palace", "Historic Gangaur & Ambrai Ghats", "Lakeside Haveli Cafes", "Bagore Ki Haveli Folk Dance"],
     thingsToDo: [
       { title: "Sunset Boat Cruise", desc: "Sail across serene waters with panoramic views of the illuminated City Palace and Jag Mandir.", img: "/cruise/royal.webp" },
-      { title: "Ghat Exploration & Aarti", desc: "Witness traditional evening aarti and cultural life at Gangaur Ghat and Ambrai Ghat.", img: "/packages/weekend.jpg" },
+      { title: "Ghat Exploration & Aarti", desc: "Witness traditional evening aarti and cultural life at Gangaur Ghat and Ambrai Ghat.", img: "/packages/package-weekend-lake-city.jpg" },
     ],
     attractions: [
       { title: "Jag Mandir Island Palace", desc: "17th-century island palace where Prince Khurram (Emperor Shah Jahan) took refuge.", img: "/cruise/cordella.jpg" },
-      { title: "Bagore Ki Haveli", desc: "18th-century royal haveli featuring the vibrant Dharohar folk dance show each evening.", img: "/packages/weekend.jpg" },
+      { title: "Bagore Ki Haveli", desc: "18th-century royal haveli featuring the vibrant Dharohar folk dance show each evening.", img: "/packages/package-weekend-lake-city.jpg" },
       { title: "Gangaur Ghat", desc: "Iconic waterfront steps in the old city known for cultural celebrations and scenic photography.", img: "/destinations/lake-pichola-sunset.jpg" },
     ],
-    gallery: ["/destinations/lake-pichola-sunset.jpg", "/destinations/city-palace-complex.jpg", "/cruise/cordella.jpg", "/packages/honeymoon.jpg", "/packages/weekend.jpg"],
+    gallery: ["/destinations/lake-pichola-sunset.jpg", "/destinations/city-palace-complex.jpg", "/cruise/cordella.jpg", "/packages/package-royal-honeymoon-udaipur.jpg", "/packages/package-weekend-lake-city.jpg"],
     faqs: [
       { question: "What is the best time of day to take a boat cruise on Lake Pichola?", answer: "Late afternoon around 4:30 PM to 6:00 PM is best to experience golden hour and watch the sun set behind the Aravali hills." },
       { question: "Are private boats available on Lake Pichola?", answer: "Yes, both shared and private motor boats operate from Rameshwar Ghat inside the City Palace jetty." },
@@ -96,10 +96,10 @@ export const mockDestinations: Destination[] = [
       { title: "Speedboat & Solar Boat Rides", desc: "Exciting boat rides connecting the mainland to Nehru Park island garden.", img: "/cruise/celebrity.jpg" },
     ],
     attractions: [
-      { title: "Sahelion Ki Bari", desc: "Historic royal garden with lotus pools, marble pavilions, and rain-fountains built for royal maidens.", img: "/packages/family.jpg" },
+      { title: "Sahelion Ki Bari", desc: "Historic royal garden with lotus pools, marble pavilions, and rain-fountains built for royal maidens.", img: "/packages/package-mewar-family-heritage.jpg" },
       { title: "Nehru Park Island", desc: "Landscaped island park in the center of Fateh Sagar with floral gardens and fountains.", img: "/destinations/fateh-sagar-lake.jpg" },
     ],
-    gallery: ["/destinations/fateh-sagar-lake.jpg", "/cruise/celebrity.jpg", "/packages/family.jpg", "/images/cafe.jpeg"],
+    gallery: ["/destinations/fateh-sagar-lake.jpg", "/cruise/celebrity.jpg", "/packages/package-mewar-family-heritage.jpg", "/images/cafe.jpeg"],
     faqs: [
       { question: "Can tourists visit the Udaipur Solar Observatory?", answer: "The Solar Observatory on the island is a research facility and generally requires special academic permission, but can be viewed from boat tours." },
     ]
@@ -120,13 +120,13 @@ export const mockDestinations: Destination[] = [
     highlights: ["Spectacular Aravali Sunsets", "Panoramic Lake Views", "Sajjangarh Biological Park", "Winding Mountain Drive", "Night Illumination"],
     thingsToDo: [
       { title: "Sunset Viewing", desc: "Watch the golden sun dip behind the Aravali hills from the palace terrace.", img: "/images/cta-mountain.jpg" },
-      { title: "Biological Park Safari", desc: "Explore the wildlife park at the foot of the hill featuring leopards, tigers, and native deer.", img: "/packages/adventure.jpg" },
+      { title: "Biological Park Safari", desc: "Explore the wildlife park at the foot of the hill featuring leopards, tigers, and native deer.", img: "/packages/package-aravali-adventure-trek.jpg" },
     ],
     attractions: [
       { title: "Bansdara Peak Viewpoint", desc: "Highest elevation viewpoint overlooking the entire Udaipur basin and all major lakes.", img: "/destinations/sajjangarh-monsoon-palace.jpg" },
-      { title: "Sajjangarh Wildlife Sanctuary", desc: "Dense deciduous reserve flanking the hill, habitat for wild boar, hyenas, and migratory birds.", img: "/packages/adventure.jpg" },
+      { title: "Sajjangarh Wildlife Sanctuary", desc: "Dense deciduous reserve flanking the hill, habitat for wild boar, hyenas, and migratory birds.", img: "/packages/package-aravali-adventure-trek.jpg" },
     ],
-    gallery: ["/destinations/sajjangarh-monsoon-palace.jpg", "/images/cta-mountain.jpg", "/packages/adventure.jpg"],
+    gallery: ["/destinations/sajjangarh-monsoon-palace.jpg", "/images/cta-mountain.jpg", "/packages/package-aravali-adventure-trek.jpg"],
     faqs: [
       { question: "How do I reach the top of Sajjangarh?", answer: "Authorized green electric shuttle vehicles and taxis operate from the main gate at the foot of the hill." },
     ]
@@ -146,14 +146,14 @@ export const mockDestinations: Destination[] = [
     bestFor: "History Buffs, Hikers & Heritage Explorers",
     highlights: ["36-km Great Wall of India", "Badal Mahal Cloud Palace", "Sound & Light Evening Show", "Kumbhalgarh Wildlife Sanctuary", "Over 360 Temples"],
     thingsToDo: [
-      { title: "Wall Trekking", desc: "Walk along segments of the massive stone ramparts overlooking the Mewar hills.", img: "/packages/group.jpg" },
+      { title: "Wall Trekking", desc: "Walk along segments of the massive stone ramparts overlooking the Mewar hills.", img: "/packages/package-mewar-forts-excursion.jpg" },
       { title: "Evening Light Show", desc: "Experience the history of Rana Kumbha illuminated with dramatic sound and lights.", img: "/destinations/kumbhalgarh-fort-wall.jpg" },
     ],
     attractions: [
       { title: "Badal Mahal", desc: "Highest palace in the fort featuring pastel 19th-century murals and breezy courtyards.", img: "/destinations/kumbhalgarh-fort-wall.jpg" },
       { title: "Vedi Temple", desc: "Triple-storey Jain temple near the Hanuman Pol gate.", img: "/destinations/ranakpur-jain-temple.jpg" },
     ],
-    gallery: ["/destinations/kumbhalgarh-fort-wall.jpg", "/packages/group.jpg"],
+    gallery: ["/destinations/kumbhalgarh-fort-wall.jpg", "/packages/package-mewar-forts-excursion.jpg"],
     faqs: [
       { question: "How far is Kumbhalgarh from Udaipur?", answer: "It is approximately 84 km from Udaipur and takes about 2 to 2.5 hours by car." },
     ]
@@ -176,9 +176,9 @@ export const mockDestinations: Destination[] = [
       { title: "Architectural Exploration", desc: "Admire the ceiling mandapas, toranas, and intricate carvings that play with light throughout the day.", img: "/destinations/ranakpur-jain-temple.jpg" },
     ],
     attractions: [
-      { title: "Chaumukha Temple", desc: "The main four-faced shrine dedicated to the first Tirthankara, Lord Adinath.", img: "/packages/pilgrimage.jpg" },
+      { title: "Chaumukha Temple", desc: "The main four-faced shrine dedicated to the first Tirthankara, Lord Adinath.", img: "/packages/package-sacred-temples-ranakpur.jpg" },
     ],
-    gallery: ["/destinations/ranakpur-jain-temple.jpg", "/packages/pilgrimage.jpg"],
+    gallery: ["/destinations/ranakpur-jain-temple.jpg", "/packages/package-sacred-temples-ranakpur.jpg"],
     faqs: [
       { question: "Can Ranakpur and Kumbhalgarh be visited together on a day trip?", answer: "Yes, many travelers combine Kumbhalgarh Fort and Ranakpur into a single day circuit from Udaipur." },
     ]

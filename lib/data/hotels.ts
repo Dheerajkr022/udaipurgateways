@@ -134,7 +134,7 @@ export const mockHotels: Hotel[] = [
     nearbyPlaces: [
       { name: "City Palace Jetty", distance: "0.5 km (by boat)", image: "/destinations/city-palace-complex.jpg" },
       { name: "Jag Mandir Island", distance: "1.0 km (by boat)", image: "/destinations/lake-pichola-sunset.jpg" },
-      { name: "Bagore Ki Haveli", distance: "0.8 km (by boat)", image: "/packages/weekend.jpg" },
+      { name: "Bagore Ki Haveli", distance: "0.8 km (by boat)", image: "/packages/package-weekend-lake-city.jpg" },
     ],
     faqs: [
       { question: "How do guests reach the Taj Lake Palace?", answer: "Guests arrive at the private jetty on the mainland and are ferried across Lake Pichola on the hotel's royal private speedboats." },
@@ -204,7 +204,7 @@ export const mockHotels: Hotel[] = [
     ],
     nearbyPlaces: [
       { name: "Fateh Sagar Lake", distance: "0.5 km", image: "/destinations/fateh-sagar-lake.jpg" },
-      { name: "Sahelion Ki Bari", distance: "2.5 km", image: "/packages/family.jpg" },
+      { name: "Sahelion Ki Bari", distance: "2.5 km", image: "/packages/package-mewar-family-heritage.jpg" },
       { name: "Sajjangarh Monsoon Palace", distance: "5.0 km", image: "/destinations/sajjangarh-monsoon-palace.jpg" },
     ],
     faqs: [

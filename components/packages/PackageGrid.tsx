@@ -13,7 +13,13 @@ export default function PackageGrid() {
         {holidayPackages.map((pkg, i) => (
           <div key={i} className="bg-white rounded-xl overflow-hidden shadow-sm border border-border-color hover:shadow-md transition-shadow cursor-pointer group" onClick={() => setSelectedPkg(pkg)}>
             <div className="relative h-56 overflow-hidden">
-              <Image src={pkg.img} alt={pkg.title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+              <Image 
+                src={pkg.img} 
+                alt={pkg.title} 
+                fill 
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                className="object-cover group-hover:scale-105 transition-transform duration-500" 
+              />
             </div>
             <div className="p-6">
               <h3 className="font-bold text-lg text-primary group-hover:text-accent transition-colors">{pkg.title}</h3>
