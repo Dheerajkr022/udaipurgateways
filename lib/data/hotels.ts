@@ -82,7 +82,7 @@ export const mockHotels: Hotel[] = [
     description: "Located on the banks of Lake Pichola, The Oberoi Udaivilas stands on the 200-year-old hunting grounds of the Maharana of Mewar. Spread over 50 acres, which includes a twenty-acre wildlife sanctuary with deer and wild boar, the resort offers uninterrupted views across the lake to the City Palace. Designed in the traditional style of a Rajasthani royal palace with grand domes, hand-painted frescoes, reflection pools, and manicured courtyards, it consistently ranks among the finest luxury resorts in the world.",
     quote: "Where the majesty of Mewar meets world-renowned Oberoi hospitality.",
     heroImage: "/hotels-cruises/leela.jpg",
-    gallery: ["/hotels-cruises/leela.jpg", "/destinations/lake-pichola.jpg", "/hotels-cruises/suite-room.jpg"],
+    gallery: ["/hotels-cruises/leela.jpg", "/destinations/lake-pichola-sunset.jpg", "/hotels-cruises/suite-room.jpg"],
     propertyType: "Luxury Palace Resort",
     idealFor: "Couples, Honeymooners, Luxury Travelers & Celebrations",
     checkIn: "2:00 PM",
@@ -95,8 +95,8 @@ export const mockHotels: Hotel[] = [
       { name: "Chandni", description: "Open-air dining terrace with views of the City Palace and Lake Pichola.", image: "/images/cafe.jpeg" },
     ],
     nearbyPlaces: [
-      { name: "Lake Pichola", distance: "0.1 km", image: "/destinations/lake-pichola.jpg" },
-      { name: "City Palace", distance: "2.5 km", image: "/destinations/city-palace.jpg" },
+      { name: "Lake Pichola", distance: "0.1 km", image: "/destinations/lake-pichola-sunset.jpg" },
+      { name: "City Palace", distance: "2.5 km", image: "/destinations/city-palace-complex.jpg" },
       { name: "Jagdish Temple", distance: "2.8 km", image: "/images/travel-enquiry.jpg" },
     ],
     faqs: [
@@ -119,7 +119,7 @@ export const mockHotels: Hotel[] = [
     description: "Built in 1746 by Maharana Jagat Singh II as a royal pleasure palace named Jag Niwas, Taj Lake Palace rises gracefully from the turquoise waters of Lake Pichola. Accessible exclusively by private hotel boat, this white marble wonder features ornate jharokhas, tranquil lily ponds, frescoed royal chambers, and panoramic 360-degree vistas of Udaipur's historic skyline. An iconic filming location for James Bond's 'Octopussy', it is universally celebrated as one of the most romantic hotels in the world.",
     quote: "A floating vision of pure white marble on shimmering waters.",
     heroImage: "/hotels-cruises/taj.jpg",
-    gallery: ["/hotels-cruises/taj.jpg", "/destinations/lake-pichola.jpg", "/hotels-cruises/deluxe-room.jpg"],
+    gallery: ["/hotels-cruises/taj.jpg", "/destinations/lake-pichola-sunset.jpg", "/hotels-cruises/deluxe-room.jpg"],
     propertyType: "Heritage Island Palace",
     idealFor: "Romance, Honeymooners, Heritage Connoisseurs & Photography",
     checkIn: "2:00 PM",
@@ -132,9 +132,9 @@ export const mockHotels: Hotel[] = [
       { name: "Bhairo", description: "Rooftop European fine dining under the starlit Udaipur night sky.", image: "/cruise/specialty-dining.png" },
     ],
     nearbyPlaces: [
-      { name: "City Palace Jetty", distance: "0.5 km (by boat)", image: "/destinations/city-palace.jpg" },
-      { name: "Jag Mandir Island", distance: "1.0 km (by boat)", image: "/destinations/lake-pichola.jpg" },
-      { name: "Bagore Ki Haveli", distance: "0.8 km (by boat)", image: "/destinations/city-palace.jpg" },
+      { name: "City Palace Jetty", distance: "0.5 km (by boat)", image: "/destinations/city-palace-complex.jpg" },
+      { name: "Jag Mandir Island", distance: "1.0 km (by boat)", image: "/destinations/lake-pichola-sunset.jpg" },
+      { name: "Bagore Ki Haveli", distance: "0.8 km (by boat)", image: "/packages/weekend.jpg" },
     ],
     faqs: [
       { question: "How do guests reach the Taj Lake Palace?", answer: "Guests arrive at the private jetty on the mainland and are ferried across Lake Pichola on the hotel's royal private speedboats." },
@@ -155,7 +155,7 @@ export const mockHotels: Hotel[] = [
     description: "Nestled on the serene banks of Lake Pichola, The Leela Palace Udaipur blends traditional Mewari royal architecture with ultra-modern luxury. Each of the palace's 80 rooms and suites provides breathtaking views of heritage landmarks, the shimmering lake, and the rolling Aravali hills. Guests arrive by decorative boats across the water and are welcomed with rose petal showers and royal trumpets. Featuring the award-winning Sheesh Mahal lakeside restaurant and India's only tented luxury ESPA spa.",
     quote: "Timeless Mewar elegance on the water's edge.",
     heroImage: "/hotels-cruises/raddison.jpg",
-    gallery: ["/hotels-cruises/raddison.jpg", "/hotels-cruises/suite-room.jpg", "/destinations/lake-pichola.jpg"],
+    gallery: ["/hotels-cruises/raddison.jpg", "/hotels-cruises/suite-room.jpg", "/destinations/lake-pichola-sunset.jpg"],
     propertyType: "Luxury Lake Palace Hotel",
     idealFor: "Luxury Seekers, Couples, Families & Wellness Getaways",
     checkIn: "2:00 PM",
@@ -168,9 +168,9 @@ export const mockHotels: Hotel[] = [
       { name: "Library Bar", description: "Intimate lounge with vintage artwork, first editions, and premium spirits.", image: "/cruise/bars-lounges.jpg" },
     ],
     nearbyPlaces: [
-      { name: "Ambrai Ghat", distance: "0.8 km", image: "/destinations/lake-pichola.jpg" },
-      { name: "City Palace", distance: "2.0 km", image: "/destinations/city-palace.jpg" },
-      { name: "Sajjangarh Monsoon Palace", distance: "7.0 km", image: "/destinations/sajjangarh.jpg" },
+      { name: "Ambrai Ghat", distance: "0.8 km", image: "/destinations/lake-pichola-sunset.jpg" },
+      { name: "City Palace", distance: "2.0 km", image: "/destinations/city-palace-complex.jpg" },
+      { name: "Sajjangarh Monsoon Palace", distance: "7.0 km", image: "/destinations/sajjangarh-monsoon-palace.jpg" },
     ],
     faqs: [
       { question: "Does The Leela Palace offer arrival by boat?", answer: "Yes, guests enjoy a signature ceremonial boat arrival across Lake Pichola from the private mainland jetty." },

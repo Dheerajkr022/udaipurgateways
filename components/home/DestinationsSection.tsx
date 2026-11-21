@@ -8,14 +8,14 @@ export default function DestinationsSection() {
   const [activeTab, setActiveTab] = useState<"all" | "excursions">("all");
 
   const destinations = [
-    { name: "Lake Pichola & Ghats", type: "Lakes & Heritage", img: "/destinations/lake-pichola.jpg", slug: "lake-pichola", category: "city" },
-    { name: "City Palace Complex", type: "Royal Mewar Architecture", img: "/destinations/city-palace.jpg", slug: "city-palace", category: "city" },
-    { name: "Fateh Sagar Lake", type: "Lakeside & Gardens", img: "/destinations/fateh-sagar.jpg", slug: "fateh-sagar", category: "city" },
-    { name: "Sajjangarh Monsoon Palace", type: "Hilltop Palaces & Sunsets", img: "/destinations/sajjangarh.jpg", slug: "sajjangarh", category: "city" },
-    { name: "Kumbhalgarh Fort", type: "Great Wall of India", img: "/destinations/kumbhalgarh.jpg", slug: "kumbhalgarh", category: "excursions" },
-    { name: "Ranakpur Jain Temple", type: "Marble Architectural Marvels", img: "/destinations/ranakpur.jpg", slug: "ranakpur", category: "excursions" },
-    { name: "Chittorgarh Fort", type: "Epic Mewar History", img: "/destinations/chittorgarh.jpg", slug: "chittorgarh", category: "excursions" },
-    { name: "Mount Abu Hill Station", type: "Scenic Hill Station", img: "/destinations/mount-abu.jpg", slug: "mount-abu", category: "excursions" },
+    { name: "Lake Pichola & Ghats", type: "Lakes & Heritage", img: "/destinations/lake-pichola-sunset.jpg", slug: "lake-pichola", category: "city" },
+    { name: "City Palace Complex", type: "Royal Mewar Architecture", img: "/destinations/city-palace-complex.jpg", slug: "city-palace", category: "city" },
+    { name: "Fateh Sagar Lake", type: "Lakeside & Gardens", img: "/destinations/fateh-sagar-lake.jpg", slug: "fateh-sagar", category: "city" },
+    { name: "Sajjangarh Monsoon Palace", type: "Hilltop Palaces & Sunsets", img: "/destinations/sajjangarh-monsoon-palace.jpg", slug: "sajjangarh", category: "city" },
+    { name: "Kumbhalgarh Fort", type: "Great Wall of India", img: "/destinations/kumbhalgarh-fort-wall.jpg", slug: "kumbhalgarh", category: "excursions" },
+    { name: "Ranakpur Jain Temple", type: "Marble Architectural Marvels", img: "/destinations/ranakpur-jain-temple.jpg", slug: "ranakpur", category: "excursions" },
+    { name: "Chittorgarh Fort", type: "Epic Mewar History", img: "/destinations/chittorgarh-fort.jpg", slug: "chittorgarh", category: "excursions" },
+    { name: "Mount Abu Hill Station", type: "Scenic Hill Station", img: "/destinations/mount-abu-nakki-lake.jpg", slug: "mount-abu", category: "excursions" },
   ];
 
   const filteredDestinations = activeTab === "all" 
