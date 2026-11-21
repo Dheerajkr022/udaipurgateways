@@ -119,11 +119,11 @@ export default function AboutPage() {
 
         {/* Hero Card */}
         <div className="bg-white rounded-2xl border border-gray-200 shadow-xs relative overflow-hidden">
-          {/* Mountain scenery background image on right */}
+          {/* Udaipur Lake Palace background image on right */}
           <div className="absolute right-0 top-0 w-full md:w-3/5 h-full pointer-events-none overflow-hidden">
             <Image 
               src="/images/about-hero-mountain.jpg" 
-              alt="Scenic mountain landscape" 
+              alt="Udaipur Taj Lake Palace on Lake Pichola" 
               fill 
               className="object-cover object-center md:object-right" 
               priority
