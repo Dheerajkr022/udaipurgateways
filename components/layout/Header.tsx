@@ -2,10 +2,12 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
 
   const links = [
     { name: "Home", href: "/" },
@@ -19,31 +21,38 @@ export default function Header() {
 
   return (
     <header className="bg-white border-b border-border-color sticky top-0 z-50">
-      <div className="container mx-auto px-4 h-20 flex items-center justify-between">
-        <Link href="/" className="flex flex-col">
-          <span className="text-2xl font-bold text-primary tracking-tight leading-none">UDAIPUR GATEWAY</span>
-          <span className="text-[10px] sm:text-xs text-text-secondary tracking-wider font-medium mt-1">
-            Independent Travel Agency, Travel Information and Courier Assistance
+      <div className="container mx-auto px-4 h-20 flex items-center justify-between gap-4">
+        {/* Brand / Logo */}
+        <Link href="/" className="flex flex-col justify-center py-1 shrink-0">
+          <span className="text-xl sm:text-2xl font-extrabold text-primary tracking-tight leading-none">
+            UDAIPUR GATEWAY
           </span>
-          <span className="text-[9px] sm:text-[10px] text-text-secondary/80 font-normal tracking-tight mt-0.5 hidden sm:block">
-            Your Comprehensive Travel Guide & Advisory in Udaipur, Rajasthan
+          <span className="text-[10px] sm:text-[11px] text-text-secondary tracking-wide font-medium mt-1 leading-none max-w-[240px] sm:max-w-xs md:max-w-none truncate sm:whitespace-normal">
+            Independent Travel Agency, Travel Information and Courier Assistance
           </span>
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden lg:flex items-center gap-6">
-          {links.map((link) => (
-            <Link
-              key={link.name}
-              href={link.href}
-              className="text-text-primary font-medium hover:text-accent transition-colors text-sm"
-            >
-              {link.name}
-            </Link>
-          ))}
+        <nav className="hidden lg:flex items-center gap-3 xl:gap-5 2xl:gap-6 shrink-0">
+          {links.map((link) => {
+            const isActive = pathname === link.href || (link.href !== "/" && pathname.startsWith(link.href));
+            return (
+              <Link
+                key={link.name}
+                href={link.href}
+                className={`font-medium transition-colors text-xs xl:text-sm whitespace-nowrap ${
+                  isActive 
+                    ? "text-accent font-semibold" 
+                    : "text-text-primary hover:text-accent"
+                }`}
+              >
+                {link.name}
+              </Link>
+            );
+          })}
           <Link
-            href="#enquire"
-            className="bg-accent text-white px-6 py-2.5 rounded-md font-semibold hover:opacity-90 transition-opacity"
+            href="/#enquire"
+            className="bg-accent text-white px-4 xl:px-6 py-2.5 rounded-md font-semibold text-xs xl:text-sm hover:opacity-90 transition-opacity whitespace-nowrap shrink-0 shadow-xs"
           >
             ENQUIRE NOW
           </Link>
@@ -51,34 +60,50 @@ export default function Header() {
 
         {/* Mobile Toggle */}
         <button
-          className="lg:hidden p-2 text-primary"
+          className="lg:hidden p-2 text-primary rounded-md hover:bg-gray-100 transition-colors"
           onClick={() => setIsOpen(!isOpen)}
+          aria-label="Toggle navigation menu"
+          aria-expanded={isOpen}
         >
           {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
         </button>
       </div>
 
-      {/* Mobile Nav */}
+      {/* Mobile Nav Drawer */}
       {isOpen && (
-        <div className="lg:hidden absolute top-20 left-0 right-0 bg-white border-b border-border-color shadow-lg p-4 flex flex-col gap-4">
-          {links.map((link) => (
+        <>
+          {/* Backdrop */}
+          <div 
+            className="lg:hidden fixed inset-0 top-20 bg-black/40 z-40 backdrop-blur-xs" 
+            onClick={() => setIsOpen(false)} 
+          />
+          <div className="lg:hidden absolute top-full left-0 right-0 bg-white border-b border-border-color shadow-xl p-5 flex flex-col gap-2 z-50 animate-in fade-in slide-in-from-top-2 duration-200 max-h-[calc(100vh-80px)] overflow-y-auto">
+            {links.map((link) => {
+              const isActive = pathname === link.href || (link.href !== "/" && pathname.startsWith(link.href));
+              return (
+                <Link
+                  key={link.name}
+                  href={link.href}
+                  className={`p-3 rounded-lg text-sm font-medium transition-colors ${
+                    isActive 
+                      ? "bg-accent/10 text-accent font-semibold" 
+                      : "text-text-primary hover:bg-gray-50 hover:text-accent"
+                  }`}
+                  onClick={() => setIsOpen(false)}
+                >
+                  {link.name}
+                </Link>
+              );
+            })}
             <Link
-              key={link.name}
-              href={link.href}
-              className="text-text-primary font-medium hover:text-accent p-2 border-b border-gray-50"
+              href="/#enquire"
+              className="bg-accent text-white text-center px-6 py-3 rounded-md font-semibold hover:opacity-90 mt-3 shadow-sm"
               onClick={() => setIsOpen(false)}
             >
-              {link.name}
+              ENQUIRE NOW
             </Link>
-          ))}
-          <Link
-            href="#enquire"
-            className="bg-accent text-white text-center px-6 py-3 rounded-md font-semibold hover:opacity-90 mt-2"
-            onClick={() => setIsOpen(false)}
-          >
-            ENQUIRE NOW
-          </Link>
-        </div>
+          </div>
+        </>
       )}
     </header>
   );
