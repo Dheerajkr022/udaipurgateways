@@ -35,11 +35,11 @@ export const mockDestinations: Destination[] = [
     highlights: ["Sunset Boat Cruises", "Jag Mandir Island Palace", "Historic Gangaur & Ambrai Ghats", "Lakeside Haveli Cafes", "Bagore Ki Haveli Folk Dance"],
     thingsToDo: [
       { title: "Sunset Boat Cruise", desc: "Sail across serene waters with panoramic views of the illuminated City Palace and Jag Mandir.", img: "/cruise/royal.webp" },
-      { title: "Ghat Exploration & Aarti", desc: "Witness traditional evening aarti and cultural life at Gangaur Ghat and Ambrai Ghat.", img: "/destinations/fateh-sagar.jpg" },
+      { title: "Ghat Exploration & Aarti", desc: "Witness traditional evening aarti and cultural life at Gangaur Ghat and Ambrai Ghat.", img: "/packages/weekend.jpg" },
     ],
     attractions: [
       { title: "Jag Mandir Island Palace", desc: "17th-century island palace where Prince Khurram (Emperor Shah Jahan) took refuge.", img: "/cruise/cordella.jpg" },
-      { title: "Bagore Ki Haveli", desc: "18th-century royal haveli featuring the vibrant Dharohar folk dance show each evening.", img: "/destinations/city-palace.jpg" },
+      { title: "Bagore Ki Haveli", desc: "18th-century royal haveli featuring the vibrant Dharohar folk dance show each evening.", img: "/packages/weekend.jpg" },
       { title: "Gangaur Ghat", desc: "Iconic waterfront steps in the old city known for cultural celebrations and scenic photography.", img: "/destinations/lake-pichola.jpg" },
     ],
     gallery: ["/destinations/lake-pichola.jpg", "/destinations/city-palace.jpg", "/cruise/cordella.jpg", "/packages/honeymoon.jpg", "/packages/weekend.jpg"],
@@ -68,7 +68,7 @@ export const mockDestinations: Destination[] = [
     ],
     attractions: [
       { title: "Mor Chowk (Peacock Courtyard)", desc: "Exquisite glass inlay mosaics depicting dancing peacocks crafted with vibrant glass.", img: "/destinations/city-palace.jpg" },
-      { title: "Jagdish Temple", desc: "Imposing 1651 Indo-Aryan temple dedicated to Lord Vishnu right outside the palace gate.", img: "/destinations/ranakpur.jpg" },
+      { title: "Jagdish Temple", desc: "Imposing 1651 Indo-Aryan temple dedicated to Lord Vishnu right outside the palace gate.", img: "/images/travel-enquiry.jpg" },
       { title: "Crystal Gallery", desc: "World's largest private collection of rare 19th-century F&C Osler crystal furniture.", img: "/hotels-cruises/deluxe-room.jpg" },
     ],
     gallery: ["/destinations/city-palace.jpg", "/destinations/lake-pichola.jpg", "/images/travel-enquiry.jpg", "/hotels-cruises/standard-room.jpg"],

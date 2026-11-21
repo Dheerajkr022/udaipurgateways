@@ -146,8 +146,8 @@ export const mockCruises: Cruise[] = [
       { name: "Lake Pichola", description: "Udaipur's iconic lake created in 1362 AD.", image: "/destinations/lake-pichola.jpg" },
       { name: "Jag Mandir Island", description: "17th-century island palace.", image: "/cruise/cordella.jpg" },
       { name: "City Palace Waterfront", description: "Towering Mewar royal facade.", image: "/destinations/city-palace.jpg" },
-      { name: "Gangaur Ghat", description: "Cultural waterfront steps.", image: "/destinations/fateh-sagar.jpg" },
-      { name: "Arsi Vilas", description: "Historic royal bird sanctuary island.", image: "/destinations/sajjangarh.jpg" },
+      { name: "Gangaur Ghat", description: "Cultural waterfront steps.", image: "/packages/weekend.jpg" },
+      { name: "Arsi Vilas", description: "Historic royal bird sanctuary island.", image: "/destinations/lake-pichola.jpg" },
       { name: "Ambrai Ghat", description: "Romantic twilight viewpoint.", image: "/destinations/lake-pichola.jpg" }
     ],
     included: [

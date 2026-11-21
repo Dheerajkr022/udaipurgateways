@@ -97,7 +97,7 @@ export const mockHotels: Hotel[] = [
     nearbyPlaces: [
       { name: "Lake Pichola", distance: "0.1 km", image: "/destinations/lake-pichola.jpg" },
       { name: "City Palace", distance: "2.5 km", image: "/destinations/city-palace.jpg" },
-      { name: "Jagdish Temple", distance: "2.8 km", image: "/destinations/ranakpur.jpg" },
+      { name: "Jagdish Temple", distance: "2.8 km", image: "/images/travel-enquiry.jpg" },
     ],
     faqs: [
       { question: "What is the best time to visit The Oberoi Udaivilas?", answer: "The winter months from October to March offer pleasant temperatures and clear sunny days ideal for lake views and courtyard relaxing." },
