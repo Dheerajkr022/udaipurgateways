@@ -7,7 +7,7 @@ export default function WhyChooseUs() {
     { title: "Transparent", subtitle: "Information", icon: FileText, desc: "Clear, honest travel details with no booking fees or hidden charges." },
     { title: "Courier & Parcel", subtitle: "Assistance", icon: Lock, desc: "Dependable luggage, documents, and handicraft shipping assistance." },
     { title: "Dedicated Local", subtitle: "Support", icon: Clock, desc: "Reliable assistance and enquiry guidance whenever you need it." },
-    { title: "Complete Travel", subtitle: "Information", icon: PackageCheck, desc: "Hotels, palaces, lake cruises, and excursions all in one place." },
+    { title: "Complete Travel", subtitle: "Information", icon: PackageCheck, desc: "Hotels, palaces, heritage havelis, and excursions all in one place." },
   ];
 
   return (

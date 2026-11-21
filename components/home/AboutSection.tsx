@@ -16,7 +16,7 @@ export default function AboutSection() {
               <strong>Udaipur Gateway</strong> is operated by <strong>Nothing Like Travel LLP</strong>, an independent travel agency, travel information and courier assistance provider based in Udaipur, Rajasthan. We are committed to helping visitors explore the City of Lakes and the glorious Mewar region with genuine, reliable, and transparent travel information.
             </p>
             <p>
-              Our wide range of travel advisory services includes personalized sightseeing guides for iconic landmarks like the City Palace, Lake Pichola, Jag Mandir, and Sajjangarh Monsoon Palace, detailed information on heritage palaces and lakeside resorts, lake cruise assistance, and regional excursion circuits to Kumbhalgarh, Ranakpur, and Chittorgarh. In addition, we offer dedicated courier and parcel assistance for luggage, documents, and traditional Rajasthani handicrafts.
+              Our wide range of travel advisory services includes personalized sightseeing guides for iconic landmarks like the City Palace, Lake Pichola, Jag Mandir, and Sajjangarh Monsoon Palace, detailed information on heritage palaces and lakeside resorts, and regional excursion circuits to Kumbhalgarh, Ranakpur, and Chittorgarh. In addition, we offer dedicated courier and parcel assistance for luggage, documents, and traditional Rajasthani handicrafts.
             </p>
           </div>
           <Link href="/about" className="inline-block border-2 border-primary text-primary px-6 py-2.5 rounded-md font-semibold hover:bg-primary hover:text-white transition-colors">

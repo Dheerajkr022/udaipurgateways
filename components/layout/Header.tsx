@@ -14,7 +14,6 @@ export default function Header() {
     { name: "Holiday Packages", href: "/packages" },
     { name: "Destinations", href: "/destinations" },
     { name: "Hotels & Resorts", href: "/hotels" },
-    { name: "Lake Cruises", href: "/cruises" },
     { name: "About Us", href: "/about" },
     { name: "Contact Us", href: "/contact" },
   ];

@@ -4,7 +4,7 @@ export default function Testimonials() {
   const testimonials = [
     { text: "Our Udaipur honeymoon was pure magic! Udaipur Gateway's information on Lake Pichola hotels made our stay unforgettable.", author: "Amit & Priya Sharma", rating: 5 },
     { text: "The recommendation to visit Kumbhalgarh Fort and Ranakpur on our day trip from Udaipur was fantastic and well planned.", author: "Rahul Verma", rating: 5 },
-    { text: "Best local travel information service in Udaipur. Honest guidance on sunset lake cruises and palace tickets.", author: "Sneha Desai", rating: 5 },
+    { text: "Best local travel information service in Udaipur. Honest guidance on sunset viewpoints and palace tickets.", author: "Sneha Desai", rating: 5 },
     { text: "Helped us arrange courier assistance for our handicrafts shipment from Udaipur to Delhi seamlessly.", author: "Vikram Singh", rating: 5 },
     { text: "The boat cruise advisory for Lake Pichola was spot on. Sunset at Jag Mandir was the highlight of our vacation.", author: "Ananya Gupta", rating: 5 },
     { text: "Extremely helpful team. They guided us on the best heritage havelis near Gangaur Ghat within our budget.", author: "Rohit Khanna", rating: 5 },

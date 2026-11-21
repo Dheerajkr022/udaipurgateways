@@ -1,94 +1,103 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Building2, Anchor, Star, Bed } from "lucide-react";
+import { Building2, Star, Bed, MapPin } from "lucide-react";
 
 export default function HotelsAndCruises() {
   const hotels = [
-    { name: "The Oberoi Udaivilas", location: "Haridas Ji Ki Magri, Udaipur", img: "/hotels-cruises/leela.jpg", slug: "the-oberoi-udaivilas" },
-    { name: "Taj Lake Palace", location: "Lake Pichola, Udaipur", img: "/hotels-cruises/taj.jpg", slug: "taj-lake-palace" },
-    { name: "The Leela Palace", location: "Lake Pichola, Udaipur", img: "/hotels-cruises/raddison.jpg", slug: "the-leela-palace" },
-    { name: "Radisson Blu Resort", location: "Fateh Sagar, Udaipur", img: "/hotels-cruises/stregis.jpg", slug: "radisson-blu" },
-  ];
-
-  const cruises = [
-    { name: "Lake Pichola Royal Cruise", type: "Sunset Lake Cruise", img: "/cruise/royal.webp", slug: "royal-caribbean" },
-    { name: "Jag Mandir Island Ride", type: "Heritage Boat Ride", img: "/cruise/cordella.jpg", slug: "resorts-world-one" },
-    { name: "Fateh Sagar Solar Boat", type: "Eco Lake Cruise", img: "/cruise/celebrity.jpg", slug: "cordelia-cruises" },
-    { name: "Jaisamand Lake Safari", type: "Island Lake Safari", img: "/cruise/norwegian.avif", slug: "anthem-of-the-seas" },
+    { 
+      name: "The Oberoi Udaivilas", 
+      location: "Haridas Ji Ki Magri, Udaipur", 
+      img: "/hotels-cruises/leela.jpg", 
+      slug: "the-oberoi-udaivilas",
+      type: "Luxury Palace Resort"
+    },
+    { 
+      name: "Taj Lake Palace", 
+      location: "Lake Pichola, Udaipur", 
+      img: "/hotels-cruises/taj.jpg", 
+      slug: "taj-lake-palace",
+      type: "Heritage Island Palace"
+    },
+    { 
+      name: "The Leela Palace", 
+      location: "Lake Pichola, Udaipur", 
+      img: "/hotels-cruises/raddison.jpg", 
+      slug: "the-leela-palace",
+      type: "Luxury Lake Palace Hotel"
+    },
+    { 
+      name: "Radisson Blu Resort", 
+      location: "Fateh Sagar, Udaipur", 
+      img: "/hotels-cruises/stregis.jpg", 
+      slug: "radisson-blu",
+      type: "Palace Resort & Spa"
+    },
   ];
 
   return (
     <section className="py-16 bg-white border-t border-border-color">
-      <div className="container mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
-        
-        {/* Hotels Column */}
-        <div>
-          <div className="text-center mb-8">
-            <h3 className="text-2xl font-bold text-primary mb-3">HOTELS & PALACES</h3>
-            <p className="text-xs text-text-secondary max-w-sm mx-auto mb-4">
-              Comprehensive information on Udaipur's world-famous luxury palace resorts and heritage stays
-            </p>
-            <div className="flex flex-wrap justify-center gap-4 text-xs font-semibold text-text-secondary">
-              <span className="flex items-center gap-1 text-primary"><Star className="w-4 h-4"/> Palace Resorts</span>
-              <span className="flex items-center gap-1"><Bed className="w-4 h-4"/> Heritage Havelis</span>
-              <span className="flex items-center gap-1"><Building2 className="w-4 h-4"/> Lakefront Stays</span>
-            </div>
-          </div>
-          
-          <div className="grid grid-cols-2 gap-4">
-            {hotels.map((hotel, i) => (
-              <Link href={`/hotels/${hotel.slug}`} key={i} className="block rounded-xl overflow-hidden border border-border-color group shadow-sm hover:shadow-md transition-shadow">
-                <div className="relative h-32 overflow-hidden">
-                  <Image src={hotel.img} alt={hotel.name} fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
-                </div>
-                <div className="p-3">
-                  <h4 className="font-bold text-primary text-sm group-hover:text-accent transition-colors">{hotel.name}</h4>
-                  <p className="text-xs text-text-secondary mt-0.5">{hotel.location}</p>
-                </div>
-              </Link>
-            ))}
-          </div>
-          <div className="mt-6 text-center">
-            <Link href="/hotels" className="bg-primary text-white px-6 py-2.5 rounded-md font-semibold text-xs inline-block hover:bg-primary-light transition-colors">
-              EXPLORE HOTELS & RESORTS
-            </Link>
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl font-bold text-primary inline-flex items-center gap-4">
+            <span className="h-px w-12 bg-border-color hidden sm:block"></span>
+            FEATURED HOTELS & PALACES
+            <span className="h-px w-12 bg-border-color hidden sm:block"></span>
+          </h2>
+          <p className="mt-3 text-text-secondary max-w-2xl mx-auto text-sm sm:text-base font-medium">
+            Comprehensive travel information on Udaipur&apos;s world-famous luxury palace resorts and heritage stays
+          </p>
+          <div className="flex flex-wrap justify-center gap-6 mt-4 text-xs font-semibold text-text-secondary">
+            <span className="flex items-center gap-1.5 text-primary"><Star className="w-4 h-4 fill-amber-400 text-amber-400"/> Palace Resorts</span>
+            <span className="flex items-center gap-1.5"><Bed className="w-4 h-4 text-primary"/> Heritage Havelis</span>
+            <span className="flex items-center gap-1.5"><Building2 className="w-4 h-4 text-primary"/> Lakefront Stays</span>
           </div>
         </div>
 
-        {/* Cruises Column */}
-        <div>
-          <div className="text-center mb-8">
-            <h3 className="text-2xl font-bold text-primary mb-3">LAKE CRUISES & BOATING</h3>
-            <p className="text-xs text-text-secondary max-w-sm mx-auto mb-4">
-              Scenic lake boat tours, sunset charters, and island palace rides across Udaipur's historic waters
-            </p>
-            <div className="flex flex-wrap justify-center gap-4 text-xs font-semibold text-text-secondary">
-              <span className="flex items-center gap-1 text-primary"><Anchor className="w-4 h-4"/> Sunset Cruises</span>
-              <span className="flex items-center gap-1"><Anchor className="w-4 h-4"/> Solar Boats</span>
-              <span className="flex items-center gap-1"><Anchor className="w-4 h-4"/> Island Palaces</span>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-2 gap-4">
-            {cruises.map((cruise, i) => (
-              <Link href={`/cruises/${cruise.slug}`} key={i} className="block rounded-xl overflow-hidden border border-border-color group shadow-sm hover:shadow-md transition-shadow">
-                <div className="relative h-32 overflow-hidden">
-                  <Image src={cruise.img} alt={cruise.name} fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {hotels.map((hotel, i) => (
+            <Link 
+              href={`/hotels/${hotel.slug}`} 
+              key={i} 
+              className="group rounded-xl overflow-hidden border border-border-color bg-white shadow-sm hover:shadow-md transition-all duration-300 block flex flex-col"
+            >
+              <div className="relative h-52 overflow-hidden">
+                <Image 
+                  src={hotel.img} 
+                  alt={hotel.name} 
+                  fill 
+                  className="object-cover group-hover:scale-105 transition-transform duration-500" 
+                />
+                <span className="absolute top-3 left-3 bg-white/90 backdrop-blur-xs text-primary font-bold text-[11px] px-2.5 py-1 rounded-md shadow-xs">
+                  {hotel.type}
+                </span>
+              </div>
+              <div className="p-4 flex flex-col flex-1 justify-between">
+                <div>
+                  <h3 className="font-bold text-primary text-base group-hover:text-accent transition-colors leading-snug">
+                    {hotel.name}
+                  </h3>
+                  <p className="text-xs text-text-secondary mt-1.5 flex items-center gap-1">
+                    <MapPin className="w-3.5 h-3.5 text-accent shrink-0" />
+                    <span>{hotel.location}</span>
+                  </p>
                 </div>
-                <div className="p-3">
-                  <h4 className="font-bold text-primary text-sm group-hover:text-accent transition-colors">{cruise.name}</h4>
-                  <p className="text-xs text-text-secondary mt-0.5">{cruise.type}</p>
+                <div className="mt-4 pt-3 border-t border-border-color/60 flex items-center justify-between text-xs font-semibold text-primary">
+                  <span>View Details</span>
+                  <span className="group-hover:translate-x-1 transition-transform">&rarr;</span>
                 </div>
-              </Link>
-            ))}
-          </div>
-          <div className="mt-6 text-center">
-            <Link href="/cruises" className="bg-primary text-white px-6 py-2.5 rounded-md font-semibold text-xs inline-block hover:bg-primary-light transition-colors">
-              EXPLORE LAKE CRUISES
+              </div>
             </Link>
-          </div>
+          ))}
         </div>
 
+        <div className="mt-10 text-center">
+          <Link 
+            href="/hotels" 
+            className="bg-primary text-white px-8 py-3 rounded-md font-semibold hover:bg-primary-light transition-colors inline-block text-sm"
+          >
+            EXPLORE ALL HOTELS & RESORTS
+          </Link>
+        </div>
       </div>
     </section>
   );

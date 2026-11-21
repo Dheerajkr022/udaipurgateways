@@ -35,7 +35,7 @@ export default function Hero() {
               Independent Travel Agency, Travel Information and Courier Assistance
             </p>
             <p>
-              Discover majestic lake palaces, royal heritage hotels, scenic lake cruises, and authentic Rajasthan excursions with expert local guidance.
+              Discover majestic lake palaces, royal heritage hotels, historic sightseeing places, and authentic Rajasthan excursions with expert local guidance.
             </p>
             <p className="text-gray-100 font-medium">
               We are here to assist your journey with genuine information and dedicated travel advisory.

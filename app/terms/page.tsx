@@ -33,7 +33,7 @@ export default function TermsPage() {
 
             <h2 className="text-xl font-bold text-primary mt-8 mb-4">4. Independent Advisory & Third-Party Providers</h2>
             <p>
-              Udaipur Gateway is an independent travel advisory service. We are not the owner, operator, or official representative of any hotel, heritage palace, lake cruise vessel, monument, or transport operator displayed on this site. Tariffs, availability, schedules, and policies are set solely by the respective independent providers.
+              Udaipur Gateway is an independent travel advisory service. We are not the owner, operator, or official representative of any hotel, heritage palace, monument, or transport operator displayed on this site. Tariffs, availability, schedules, and policies are set solely by the respective independent providers.
             </p>
 
             <h2 className="text-xl font-bold text-primary mt-8 mb-4">5. Courier & Logistics Assistance</h2>

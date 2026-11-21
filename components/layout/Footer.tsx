@@ -18,7 +18,7 @@ export default function Footer() {
             </span>
           </div>
           <p className="text-gray-300 mb-6 text-sm leading-relaxed max-w-sm">
-            Providing comprehensive travel information, heritage stay recommendations, sightseeing guidance, lake cruise advisory, and reliable courier assistance in Udaipur and Rajasthan.
+            Providing comprehensive travel information, heritage stay recommendations, sightseeing guidance, and reliable courier assistance in Udaipur and Rajasthan.
           </p>
           <div className="flex gap-4">
             <Link href="#" className="w-10 h-10 rounded-full bg-primary flex items-center justify-center hover:bg-accent transition-colors"><FaFacebook className="w-5 h-5" /></Link>
@@ -37,7 +37,6 @@ export default function Footer() {
             <li><Link href="/packages" className="hover:text-accent transition-colors">Holiday Packages</Link></li>
             <li><Link href="/destinations" className="hover:text-accent transition-colors">Destinations</Link></li>
             <li><Link href="/hotels" className="hover:text-accent transition-colors">Hotels & Resorts</Link></li>
-            <li><Link href="/cruises" className="hover:text-accent transition-colors">Lake Cruises</Link></li>
             <li><Link href="/contact" className="hover:text-accent transition-colors">Contact Us</Link></li>
           </ul>
         </div>
@@ -99,7 +98,7 @@ export default function Footer() {
               DISCLAIMER
             </h4>
             <p className="text-xs md:text-sm text-gray-300 leading-relaxed">
-              Udaipur Gateway is operated by Nothing Like Travel LLP, an independent travel information and courier assistance agency. We are not the owner, operator, booking engine, or official representative of any hotel, palace, resort, monument trust, or cruise company mentioned on this website. All brand names, trade marks, and property logos belong to their respective owners.
+              Udaipur Gateway is operated by Nothing Like Travel LLP, an independent travel information and courier assistance agency. We are not the owner, operator, booking engine, or official representative of any hotel, palace, resort, monument trust, or transport service mentioned on this website. All brand names, trade marks, and property logos belong to their respective owners.
             </p>
           </div>
         </div>

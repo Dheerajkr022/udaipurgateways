@@ -1,4 +1,4 @@
-import { Plane, Building2, Ship, FileCheck, Shield, Briefcase, Users, FileText, Package } from "lucide-react";
+import { Plane, Building2, Compass, FileCheck, Shield, Briefcase, Users, FileText, Package } from "lucide-react";
 import Link from "next/link";
 
 export default function ServicesSection() {
@@ -6,7 +6,7 @@ export default function ServicesSection() {
     { title: "Udaipur Holiday Itineraries", desc: "Curated sightseeing and holiday planning for couples and families", icon: Plane, href: "/packages" },
     { title: "Courier & Parcel Assistance", desc: "Express parcel, luggage, and handicraft courier assistance in Udaipur", icon: Package, href: "/contact" },
     { title: "Heritage Hotels & Palace Stays", desc: "Detailed information on premier lakeview and heritage palace properties", icon: Building2, href: "/hotels" },
-    { title: "Lake Pichola & Lake Cruises", desc: "Advisory for sunset boat rides, royal charters, and island excursions", icon: Ship, href: "/cruises" },
+    { title: "Lake Pichola & Ghat Guidance", desc: "Sightseeing guidance for Gangaur Ghat, Ambrai Ghat, and historic viewpoints", icon: Compass, href: "/destinations/lake-pichola" },
     { title: "Mewar Excursion Circuits", desc: "Day trips to Kumbhalgarh Fort, Ranakpur Temples, and Chittorgarh", icon: FileCheck, href: "/destinations" },
     { title: "Travel Insurance Advisory", desc: "Comprehensive travel insurance guidance for domestic & international travelers", icon: Shield, href: "/contact" },
     { title: "Destination Weddings Advisory", desc: "Venue and accommodation information for royal Udaipur celebrations", icon: Briefcase, href: "/contact" },

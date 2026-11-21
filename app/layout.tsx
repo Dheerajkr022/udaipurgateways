@@ -12,7 +12,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Udaipur Gateway | Independent Travel Agency & Courier Assistance",
-  description: "Plan your visit to Udaipur, Rajasthan with Udaipur Gateway. Comprehensive travel guides, heritage palace stays, lake cruises, excursion planning, and reliable courier assistance.",
+  description: "Plan your visit to Udaipur, Rajasthan with Udaipur Gateway. Comprehensive travel guides, heritage palace stays, sightseeing places, excursion planning, and reliable courier assistance.",
 };
 
 export default function RootLayout({
