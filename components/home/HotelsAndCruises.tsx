@@ -32,6 +32,13 @@ export default function HotelsAndCruises() {
       slug: "radisson-blu",
       type: "Palace Resort & Spa"
     },
+    { 
+      name: "The Ananta Udaipur", 
+      location: "Kodiyat Road, Bujhda, Udaipur", 
+      img: "/hotels-cruises/ananta-resort.jpg", 
+      slug: "the-ananta-udaipur",
+      type: "Luxury Hill Resort & Spa"
+    },
   ];
 
   return (
@@ -40,48 +47,48 @@ export default function HotelsAndCruises() {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-primary inline-flex items-center gap-4">
             <span className="h-px w-12 bg-border-color hidden sm:block"></span>
-            FEATURED HOTELS & PALACES
+            FEATURED HOTELS & RESORTS
             <span className="h-px w-12 bg-border-color hidden sm:block"></span>
           </h2>
           <p className="mt-3 text-text-secondary max-w-2xl mx-auto text-sm sm:text-base font-medium">
-            Comprehensive travel information on Udaipur&apos;s world-famous luxury palace resorts and heritage stays
+            Comprehensive travel information on Udaipur&apos;s world-famous luxury palace resorts, hill sanctuaries, and heritage stays
           </p>
           <div className="flex flex-wrap justify-center gap-6 mt-4 text-xs font-semibold text-text-secondary">
             <span className="flex items-center gap-1.5 text-primary"><Star className="w-4 h-4 fill-amber-400 text-amber-400"/> Palace Resorts</span>
             <span className="flex items-center gap-1.5"><Bed className="w-4 h-4 text-primary"/> Heritage Havelis</span>
-            <span className="flex items-center gap-1.5"><Building2 className="w-4 h-4 text-primary"/> Lakefront Stays</span>
+            <span className="flex items-center gap-1.5"><Building2 className="w-4 h-4 text-primary"/> Hilltop Luxury Stays</span>
           </div>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5">
           {hotels.map((hotel, i) => (
             <Link 
               href={`/hotels/${hotel.slug}`} 
               key={i} 
-              className="group rounded-xl overflow-hidden border border-border-color bg-white shadow-sm hover:shadow-md transition-all duration-300 block flex flex-col"
+              className="group rounded-xl overflow-hidden border border-border-color bg-white shadow-sm hover:shadow-md transition-all duration-300 flex flex-col"
             >
-              <div className="relative h-52 overflow-hidden">
+              <div className="relative h-48 overflow-hidden">
                 <Image 
                   src={hotel.img} 
                   alt={hotel.name} 
                   fill 
                   className="object-cover group-hover:scale-105 transition-transform duration-500" 
                 />
-                <span className="absolute top-3 left-3 bg-white/90 backdrop-blur-xs text-primary font-bold text-[11px] px-2.5 py-1 rounded-md shadow-xs">
+                <span className="absolute top-2.5 left-2.5 bg-white/95 backdrop-blur-xs text-primary font-bold text-[10px] px-2 py-0.5 rounded shadow-xs">
                   {hotel.type}
                 </span>
               </div>
-              <div className="p-4 flex flex-col flex-1 justify-between">
+              <div className="p-3.5 flex flex-col flex-1 justify-between">
                 <div>
-                  <h3 className="font-bold text-primary text-base group-hover:text-accent transition-colors leading-snug">
+                  <h3 className="font-bold text-primary text-sm group-hover:text-accent transition-colors leading-snug">
                     {hotel.name}
                   </h3>
-                  <p className="text-xs text-text-secondary mt-1.5 flex items-center gap-1">
-                    <MapPin className="w-3.5 h-3.5 text-accent shrink-0" />
+                  <p className="text-[11px] text-text-secondary mt-1 flex items-center gap-1 line-clamp-1">
+                    <MapPin className="w-3 h-3 text-accent shrink-0" />
                     <span>{hotel.location}</span>
                   </p>
                 </div>
-                <div className="mt-4 pt-3 border-t border-border-color/60 flex items-center justify-between text-xs font-semibold text-primary">
+                <div className="mt-3 pt-2.5 border-t border-border-color/60 flex items-center justify-between text-xs font-semibold text-primary">
                   <span>View Details</span>
                   <span className="group-hover:translate-x-1 transition-transform">&rarr;</span>
                 </div>

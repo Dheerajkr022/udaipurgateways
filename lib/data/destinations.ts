@@ -34,15 +34,15 @@ export const mockDestinations: Destination[] = [
     bestFor: "Couples, Families, Photographers & Heritage Lovers",
     highlights: ["Sunset Boat Cruises", "Jag Mandir Island Palace", "Historic Gangaur & Ambrai Ghats", "Lakeside Haveli Cafes", "Bagore Ki Haveli Folk Dance"],
     thingsToDo: [
-      { title: "Sunset Boat Cruise", desc: "Sail across serene waters with panoramic views of the illuminated City Palace and Jag Mandir.", img: "/cruise/royal.webp" },
+      { title: "Sunset Boat Cruise", desc: "Sail across serene waters with panoramic views of the illuminated City Palace and Jag Mandir.", img: "/destinations/lake-pichola-sunset.jpg" },
       { title: "Ghat Exploration & Aarti", desc: "Witness traditional evening aarti and cultural life at Gangaur Ghat and Ambrai Ghat.", img: "/packages/package-weekend-lake-city.jpg" },
     ],
     attractions: [
-      { title: "Jag Mandir Island Palace", desc: "17th-century island palace where Prince Khurram (Emperor Shah Jahan) took refuge.", img: "/cruise/cordella.jpg" },
+      { title: "Jag Mandir Island Palace", desc: "17th-century island palace where Prince Khurram (Emperor Shah Jahan) took refuge.", img: "/destinations/city-palace-complex.jpg" },
       { title: "Bagore Ki Haveli", desc: "18th-century royal haveli featuring the vibrant Dharohar folk dance show each evening.", img: "/packages/package-weekend-lake-city.jpg" },
       { title: "Gangaur Ghat", desc: "Iconic waterfront steps in the old city known for cultural celebrations and scenic photography.", img: "/destinations/lake-pichola-sunset.jpg" },
     ],
-    gallery: ["/destinations/lake-pichola-sunset.jpg", "/destinations/city-palace-complex.jpg", "/cruise/cordella.jpg", "/packages/package-royal-honeymoon-udaipur.jpg", "/packages/package-weekend-lake-city.jpg"],
+    gallery: ["/destinations/lake-pichola-sunset.jpg", "/destinations/city-palace-complex.jpg", "/destinations/ranakpur-jain-temple.jpg", "/packages/package-royal-honeymoon-udaipur.jpg", "/packages/package-weekend-lake-city.jpg"],
     faqs: [
       { question: "What is the best time of day to take a boat cruise on Lake Pichola?", answer: "Late afternoon around 4:30 PM to 6:00 PM is best to experience golden hour and watch the sun set behind the Aravali hills." },
       { question: "Are private boats available on Lake Pichola?", answer: "Yes, both shared and private motor boats operate from Rameshwar Ghat inside the City Palace jetty." },
@@ -93,13 +93,13 @@ export const mockDestinations: Destination[] = [
     highlights: ["Nehru Park Island", "Rani Road Scenic Drive", "Udaipur Solar Observatory", "Mumbai Market Food Stalls", "Speedboat Rides"],
     thingsToDo: [
       { title: "Rani Road Sunset Walk", desc: "Stroll or bicycle along the tranquil shoreline road surrounded by the Aravali hills.", img: "/destinations/fateh-sagar-lake.jpg" },
-      { title: "Speedboat & Solar Boat Rides", desc: "Exciting boat rides connecting the mainland to Nehru Park island garden.", img: "/cruise/celebrity.jpg" },
+      { title: "Speedboat & Solar Boat Rides", desc: "Exciting boat rides connecting the mainland to Nehru Park island garden.", img: "/destinations/fateh-sagar-lake.jpg" },
     ],
     attractions: [
       { title: "Sahelion Ki Bari", desc: "Historic royal garden with lotus pools, marble pavilions, and rain-fountains built for royal maidens.", img: "/packages/package-mewar-family-heritage.jpg" },
       { title: "Nehru Park Island", desc: "Landscaped island park in the center of Fateh Sagar with floral gardens and fountains.", img: "/destinations/fateh-sagar-lake.jpg" },
     ],
-    gallery: ["/destinations/fateh-sagar-lake.jpg", "/cruise/celebrity.jpg", "/packages/package-mewar-family-heritage.jpg", "/images/cafe.jpeg"],
+    gallery: ["/destinations/fateh-sagar-lake.jpg", "/destinations/sajjangarh-monsoon-palace.jpg", "/packages/package-mewar-family-heritage.jpg", "/images/cafe.jpeg"],
     faqs: [
       { question: "Can tourists visit the Udaipur Solar Observatory?", answer: "The Solar Observatory on the island is a research facility and generally requires special academic permission, but can be viewed from boat tours." },
     ]

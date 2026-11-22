@@ -70,6 +70,13 @@ const royalRooms = [
   { name: "Royal Maharana Suite", description: "Magnificent suite with private dining terrace, ornate marble fireplace, and panoramic City Palace vistas.", image: "/hotels-cruises/suite-room.jpg", features: ["King Bed", "360 Panoramic View", "Up to 4 Guests"] }
 ];
 
+const anantaRooms: HotelRoom[] = [
+  { name: "Luxury Villa with Balcony", description: "Spacious standalone villa with private balcony offering sweeping panoramas of the Aravali mountains.", image: "/hotels-cruises/ananta-luxury-villa.jpg", features: ["King Bed", "Aravali Mountain View", "Private Balcony", "Up to 2 Guests"] },
+  { name: "Executive Suite with Open Courtyard", description: "Expansive suite featuring an open-to-sky shower, wooden sundeck, and serene hillside views.", image: "/hotels-cruises/superior-room.jpg", features: ["King Bed", "Garden & Hill View", "Open-to-Sky Shower", "Up to 3 Guests"] },
+  { name: "Grand Presidential Villa with Plunge Pool", description: "Palatial luxury villa with private plunge pool, personal dining gazebo, and dedicated butler service.", image: "/hotels-cruises/ananta-resort.jpg", features: ["2 King Beds", "Private Pool", "Living & Dining Pavilion", "Up to 5 Guests"] },
+  { name: "Classic Hillside Room", description: "Contemporary room with warm timber furnishings and views across manicured resort gardens.", image: "/hotels-cruises/standard-room.jpg", features: ["Queen Bed", "Resort Valley View", "Up to 2 Guests"] }
+];
+
 export const mockHotels: Hotel[] = [
   {
     id: "the-oberoi-udaivilas",
@@ -90,8 +97,8 @@ export const mockHotels: Hotel[] = [
     amenities: standardAmenities,
     rooms: royalRooms,
     dining: [
-      { name: "Suryamahal", description: "Daytime dining under a hand-painted sky dome serving Western and Indian delicacies.", image: "/cruise/main-dining.png" },
-      { name: "Udaimahal", description: "Fine dining restaurant offering traditional Indian cuisine accompanied by live music.", image: "/cruise/specialty-dining.png" },
+      { name: "Suryamahal", description: "Daytime dining under a hand-painted sky dome serving Western and Indian delicacies.", image: "/images/cafe.jpeg" },
+      { name: "Udaimahal", description: "Fine dining restaurant offering traditional Indian cuisine accompanied by live music.", image: "/images/cafe.jpeg" },
       { name: "Chandni", description: "Open-air dining terrace with views of the City Palace and Lake Pichola.", image: "/images/cafe.jpeg" },
     ],
     nearbyPlaces: [
@@ -127,9 +134,9 @@ export const mockHotels: Hotel[] = [
     amenities: standardAmenities,
     rooms: royalRooms,
     dining: [
-      { name: "Jharokha", description: "All-day dining cafe overlooking Lake Pichola with arches and scallop frames.", image: "/cruise/main-dining.png" },
-      { name: "Neel Kamal", description: "Authentic Mewari and royal Indian cuisine prepared using royal recipes.", image: "/cruise/specialty-dining.png" },
-      { name: "Bhairo", description: "Rooftop European fine dining under the starlit Udaipur night sky.", image: "/cruise/specialty-dining.png" },
+      { name: "Jharokha", description: "All-day dining cafe overlooking Lake Pichola with arches and scallop frames.", image: "/images/cafe.jpeg" },
+      { name: "Neel Kamal", description: "Authentic Mewari and royal Indian cuisine prepared using royal recipes.", image: "/images/cafe.jpeg" },
+      { name: "Bhairo", description: "Rooftop European fine dining under the starlit Udaipur night sky.", image: "/images/cafe.jpeg" },
     ],
     nearbyPlaces: [
       { name: "City Palace Jetty", distance: "0.5 km (by boat)", image: "/destinations/city-palace-complex.jpg" },
@@ -163,9 +170,9 @@ export const mockHotels: Hotel[] = [
     amenities: standardAmenities,
     rooms: royalRooms,
     dining: [
-      { name: "Sheesh Mahal", description: "Two-level open-air fine dining restaurant overlooking the illuminated palace across the lake.", image: "/cruise/specialty-dining.png" },
-      { name: "The Dining Room", description: "Eclectic all-day dining with a walk-in wine cellar and views of tranquil courtyards.", image: "/cruise/main-dining.png" },
-      { name: "Library Bar", description: "Intimate lounge with vintage artwork, first editions, and premium spirits.", image: "/cruise/bars-lounges.jpg" },
+      { name: "Sheesh Mahal", description: "Two-level open-air fine dining restaurant overlooking the illuminated palace across the lake.", image: "/images/cafe.jpeg" },
+      { name: "The Dining Room", description: "Eclectic all-day dining with a walk-in wine cellar and views of tranquil courtyards.", image: "/images/cafe.jpeg" },
+      { name: "Library Bar", description: "Intimate lounge with vintage artwork, first editions, and premium spirits.", image: "/images/cafe.jpeg" },
     ],
     nearbyPlaces: [
       { name: "Ambrai Ghat", distance: "0.8 km", image: "/destinations/lake-pichola-sunset.jpg" },
@@ -198,8 +205,8 @@ export const mockHotels: Hotel[] = [
     amenities: standardAmenities,
     rooms: royalRooms,
     dining: [
-      { name: "Aravali Roof Top", description: "Rooftop dining with panoramic views of Fateh Sagar Lake and the Aravali hills.", image: "/cruise/specialty-dining.png" },
-      { name: "Neel Mahal", description: "Multi-cuisine restaurant serving Indian, Continental, and Oriental delicacies.", image: "/cruise/main-dining.png" },
+      { name: "Aravali Roof Top", description: "Rooftop dining with panoramic views of Fateh Sagar Lake and the Aravali hills.", image: "/images/cafe.jpeg" },
+      { name: "Neel Mahal", description: "Multi-cuisine restaurant serving Indian, Continental, and Oriental delicacies.", image: "/images/cafe.jpeg" },
       { name: "Wok & Burn", description: "Asian specialty cuisine and sizzling culinary presentations.", image: "/images/cafe.jpeg" },
     ],
     nearbyPlaces: [
@@ -213,6 +220,44 @@ export const mockHotels: Hotel[] = [
     ],
     rating: 4.6,
     reviewsCount: 1100
+  },
+  {
+    id: "the-ananta-udaipur",
+    slug: "the-ananta-udaipur",
+    name: "The Ananta Udaipur",
+    stars: 5,
+    location: "Kodiyat Road, Bujhda, Udaipur, Rajasthan",
+    address: "Village Bujhda, Tehsil Girwa, Kodiyat Road, Udaipur, Rajasthan 313031",
+    tagline: "A Serene 75-Acre Luxury Sanctuary Amidst the Aravali Hills",
+    description: "Sprawling across 75+ acres of verdant Aravali foothills, The Ananta Udaipur is an exquisite 5-star luxury nature resort designed with contemporary Balinese-inspired architecture. Featuring standalone luxury villas with private open-air gazebos, an expansive two-tier outdoor swimming pool, and sweeping valley panoramas, Ananta offers an idyllic sanctuary away from city bustle. Ideal for wellness retreats, romantic escapes, and grand destination celebrations, the resort blends tranquil mountain nature with world-class hospitality.",
+    quote: "Where fairy-tale dreams meet luxury amid the Aravali hills.",
+    heroImage: "/hotels-cruises/ananta-resort.jpg",
+    gallery: ["/hotels-cruises/ananta-resort.jpg", "/hotels-cruises/ananta-luxury-villa.jpg", "/destinations/sajjangarh-monsoon-palace.jpg", "/hotels-cruises/suite-room.jpg"],
+    propertyType: "Luxury Hill Resort & Spa",
+    idealFor: "Couples, Destination Weddings, Nature Lovers & Family Vacations",
+    checkIn: "2:00 PM",
+    checkOut: "11:00 AM",
+    amenities: standardAmenities,
+    rooms: anantaRooms,
+    dining: [
+      { name: "Oasis", description: "Multi-cuisine all-day dining restaurant overlooking the swimming pool and Aravali peaks.", image: "/images/cafe.jpeg" },
+      { name: "Anise", description: "Romantic open-air rooftop restaurant serving authentic Mewari and Indian specialties under starlit skies.", image: "/images/cafe.jpeg" },
+      { name: "Float Bar", description: "Poolside lounge bar offering refreshing beverages, finger food, and evening sundowners.", image: "/images/cafe.jpeg" }
+    ],
+    nearbyPlaces: [
+      { name: "Sajjangarh Monsoon Palace", distance: "4.5 km", image: "/destinations/sajjangarh-monsoon-palace.jpg" },
+      { name: "Fateh Sagar Lake", distance: "8.0 km", image: "/destinations/fateh-sagar-lake.jpg" },
+      { name: "Lake Pichola", distance: "9.5 km", image: "/destinations/lake-pichola-sunset.jpg" },
+      { name: "City Palace", distance: "10.0 km", image: "/destinations/city-palace-complex.jpg" }
+    ],
+    faqs: [
+      { question: "How far is The Ananta Udaipur from the main city centre?", answer: "The Ananta Udaipur is located approximately 9 km from the City Palace and old city, accessible in 20 minutes by car." },
+      { question: "Is The Ananta Udaipur suitable for destination weddings?", answer: "Yes, Ananta features over 40,000 sq. ft. of banquet lawns, an open-air amphitheatre, and grand ballrooms, making it one of Udaipur's top wedding resort destinations." },
+      { question: "Does the resort have private pool villas?", answer: "Yes, select luxury and presidential villas offer private plunge pools overlooking the Aravali valley." },
+      { question: "How far is the resort from Udaipur Airport?", answer: "Maharana Pratap Airport (Udaipur) is approximately 32 km away, typically a 50-minute drive." }
+    ],
+    rating: 4.8,
+    reviewsCount: 1450
   }
 ];
 
@@ -224,12 +269,16 @@ export function getHotelBySlug(slug: string): Hotel | undefined {
   const direct = mockHotels.find(h => h.slug === slug || h.id === slug);
   if (direct) return direct;
 
-  // Fallback aliases for legacy URLs
+  // Fallback aliases for legacy URLs and variations
   const aliasMap: Record<string, string> = {
     "taj-exotica": "taj-lake-palace",
     "st-regis": "the-oberoi-udaivilas",
     "the-leela-palace": "the-leela-palace",
     "radisson-blu": "radisson-blu",
+    "ananta": "the-ananta-udaipur",
+    "ananta-udaipur": "the-ananta-udaipur",
+    "the-ananta-udaipur": "the-ananta-udaipur",
+    "ananta-resort": "the-ananta-udaipur",
   };
   const mapped = aliasMap[slug.toLowerCase()];
   if (mapped) return mockHotels.find(h => h.slug === mapped);
