@@ -7,6 +7,16 @@ import Footer from "@/components/layout/Footer";
 export const metadata: Metadata = {
   title: "Udaipur Gateway | Independent Travel Agency & Courier Assistance",
   description: "Plan your visit to Udaipur, Rajasthan with Udaipur Gateway. Comprehensive travel guides, heritage palace stays, sightseeing places, excursion planning, and reliable courier assistance.",
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon.png", type: "image/png", sizes: "32x32" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+  },
 };
 
 export default function RootLayout({
