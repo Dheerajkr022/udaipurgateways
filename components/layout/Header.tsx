@@ -29,8 +29,9 @@ export default function Header() {
           <span className="text-[10px] sm:text-xs text-text-secondary tracking-wider font-semibold mt-1">
             Nothing Like Travel LLP
           </span>
-          <span className="text-[9px] sm:text-[10px] text-text-secondary/80 font-normal tracking-tight mt-0.5 hidden sm:block">
-            Independent Travel Agency, Travel Information and Courier Assistance
+          <span className="text-[9px] sm:text-[10px] text-text-secondary/80 font-normal tracking-tight mt-0.5">
+            <span className="sm:hidden">Independent Travel Agency</span>
+            <span className="hidden sm:inline">Independent Travel Agency, Travel Information and Courier Assistance</span>
           </span>
         </Link>
 
