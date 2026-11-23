@@ -78,6 +78,9 @@ export default function TravelEnquiryForm() {
       >
         {isSubmitting ? "SUBMITTING..." : "SUBMIT ENQUIRY"}
       </button>
+      <p className="text-[11px] text-gray-500 text-center mt-2 leading-relaxed">
+        Submitting an enquiry does not confirm a reservation, booking or purchase. Udaipur Gateway does not operate an online booking engine or process payments.
+      </p>
     </form>
   );
 }

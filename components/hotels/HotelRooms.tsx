@@ -34,9 +34,9 @@ export default function HotelRooms({ hotel }: { hotel: Hotel }) {
                   <Users className="w-4 h-4 text-blue-500" /> {room.features[2]}
                 </div>
               </div>
-              <button className="w-full py-2.5 border border-primary text-primary font-bold rounded hover:bg-primary hover:text-white transition-colors text-sm">
-                GET ENQUIRY
-              </button>
+              <a href="#enquiry" className="block text-center w-full py-2.5 border border-primary text-primary font-bold rounded hover:bg-primary hover:text-white transition-colors text-sm">
+                REQUEST INFORMATION
+              </a>
             </div>
           </div>
         ))}

@@ -27,11 +27,15 @@ export default function Page() {
               <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6 text-primary">
                 <MapPin className="w-6 h-6" />
               </div>
-              <h3 className="text-lg font-bold text-primary mb-3">Our Office</h3>
+              <h3 className="text-lg font-bold text-primary mb-3">Service Location</h3>
               <p className="text-text-secondary text-sm leading-relaxed">
                 Lake Palace Road, Near City Palace Circle,<br />
                 Old City, Udaipur,<br />
                 Rajasthan 313001, India
+              </p>
+              <p className="text-xs text-text-secondary/80 mt-2">
+                Operated by Nothing Like Travel LLP<br />
+                GSTIN: 09AAZFN6228N1Z7
               </p>
             </div>
 

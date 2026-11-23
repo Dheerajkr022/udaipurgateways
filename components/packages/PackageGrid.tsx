@@ -24,7 +24,7 @@ export default function PackageGrid() {
             <div className="p-6">
               <h3 className="font-bold text-lg text-primary group-hover:text-accent transition-colors">{pkg.title}</h3>
               <p className="text-sm text-text-secondary mt-2 mb-4">{pkg.desc}</p>
-              <span className="text-accent text-sm font-bold group-hover:underline">VIEW & ENQUIRE</span>
+              <span className="text-accent text-sm font-bold group-hover:underline">REQUEST ITINERARY INFORMATION</span>
             </div>
           </div>
         ))}

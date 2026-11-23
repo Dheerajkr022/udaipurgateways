@@ -58,7 +58,7 @@ export default function AboutPage() {
     {
       icon: Building2,
       title: "Travel Information",
-      desc: "We provide complete information about hotels, villas, resorts, holiday packages and attractions.",
+      desc: "We provide general destination information, accommodation details and itinerary suggestions for Udaipur.",
     },
     {
       icon: MessageSquare,
@@ -247,6 +247,37 @@ export default function AboutPage() {
                 </div>
               );
             })}
+          </div>
+        </div>
+
+        {/* HOW OUR ENQUIRY PROCESS WORKS */}
+        <div className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8 shadow-xs">
+          <div className="flex items-center justify-center gap-4 mb-6">
+            <div className="h-px bg-gray-200 flex-1 max-w-[120px]" />
+            <h3 className="text-sm font-bold tracking-widest text-gray-900 uppercase">
+              HOW OUR ENQUIRY PROCESS WORKS
+            </h3>
+            <div className="h-px bg-gray-200 flex-1 max-w-[120px]" />
+          </div>
+          <div className="max-w-3xl mx-auto space-y-4 text-xs sm:text-sm text-gray-600 leading-relaxed">
+            <p>
+              <strong>Udaipur Gateway</strong> provides independent travel information, sightseeing guidance, itinerary suggestions and enquiry assistance.
+            </p>
+            <p>
+              Visitors can submit their travel requirements through our website or contact our team directly.
+            </p>
+            <p>
+              After receiving an enquiry, our team may provide relevant destination information, itinerary suggestions, accommodation details and information about local travel options.
+            </p>
+            <p className="font-semibold text-gray-900">
+              Submitting an enquiry does not confirm a reservation, booking or purchase.
+            </p>
+            <p>
+              Udaipur Gateway does not operate an online booking engine or payment checkout system. Any reservation, service agreement, payment or final confirmation must be completed directly with the respective service provider.
+            </p>
+            <p>
+              Prices, availability, service conditions and cancellation terms are determined by the respective providers.
+            </p>
           </div>
         </div>
 

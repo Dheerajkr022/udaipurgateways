@@ -2,7 +2,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Refund Policy | Udaipur Gateway",
-  description: "Refund policy and guidelines for Udaipur Gateway — Independent Travel Agency, Travel Information and Courier Assistance.",
+  description: "Refund policy for Udaipur Gateway — Independent Travel Information, Itinerary Planning & Enquiry Assistance.",
 };
 
 export default function RefundPolicyPage() {
@@ -11,35 +11,33 @@ export default function RefundPolicyPage() {
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-8 md:p-12">
           <h1 className="text-3xl font-bold text-primary mb-8">Refund Policy</h1>
-          <div className="prose prose-blue max-w-none text-gray-600 space-y-6">
-            <p className="lead text-lg font-medium text-gray-800">
-              Udaipur Gateway, operated by Nothing Like Travel LLP (GSTIN: 09AAZFN6228N1Z7), operates as an informational travel advisory and courier assistance provider. This website does not process online credit card transactions or direct payment checkouts.
+          <div className="prose prose-blue max-w-none text-gray-600 space-y-6 text-sm sm:text-base leading-relaxed">
+            <p className="lead text-base sm:text-lg font-medium text-gray-800">
+              Udaipur Gateway is operated by Nothing Like Travel LLP and provides independent travel information, itinerary suggestions, sightseeing guidance and enquiry assistance.
             </p>
             
-            <h2 className="text-xl font-bold text-primary mt-8 mb-4">1. Refund Eligibility & Principles</h2>
+            <h2 className="text-xl font-bold text-primary mt-8 mb-4">1. Website Enquiries</h2>
             <p>
-              Because this website is 100% informational, no transactions or online charges are levied simply for using our guides, browsing destination information, or submitting general enquiries.
-            </p>
-            <p>
-              For travel services, hotel stays, or transport bookings arranged through third-party operators with our advisory assistance, refund eligibility is strictly determined by the terms and conditions of the respective hotels, palaces, lake boat operators, and transport carriers.
+              Submitting a general enquiry through our website does not constitute a booking, purchase or payment transaction. No online payment is collected through the website for submitting an enquiry.
             </p>
 
-            <h2 className="text-xl font-bold text-primary mt-8 mb-4">2. Processing of Approved Third-Party Refunds</h2>
+            <h2 className="text-xl font-bold text-primary mt-8 mb-4">2. Third-Party Services</h2>
             <p>
-              When a refund is approved by an independent service provider (such as a hotel or transport company), the refund is processed according to that operator&apos;s billing timeline. Typically, bank transfers or reversals require 7 to 14 business days depending on the financial institutions involved.
+              Accommodation, transport, sightseeing and other travel services are independently provided by their respective service providers. Any payment, refund, cancellation or rescheduling relating to services purchased directly from a third-party provider is governed by that provider&apos;s terms and conditions. Customers should contact the respective provider directly regarding payment and refund requests.
             </p>
 
-            <h2 className="text-xl font-bold text-primary mt-8 mb-4">3. Courier & Parcel Assistance</h2>
+            <h2 className="text-xl font-bold text-primary mt-8 mb-4">3. Courier Information</h2>
             <p>
-              In the event that a courier pickup cannot be completed due to carrier constraints, any advance service fee paid for courier coordination will be promptly returned via the original method of payment.
+              Courier and parcel services are subject to the terms, charges and refund policies of the respective logistics provider.
             </p>
 
-            <h2 className="text-xl font-bold text-primary mt-8 mb-4">4. Contact for Assistance</h2>
+            <h2 className="text-xl font-bold text-primary mt-8 mb-4">4. Contact</h2>
             <p>
-              If you have any questions regarding refunds or service policies from partner providers, please reach out to our team at <a href="mailto:support@udaipurgateway.com" className="text-primary font-semibold underline">support@udaipurgateway.com</a>.
+              <strong>Email:</strong> <a href="mailto:info@udaipurgateway.com" className="text-primary hover:underline">info@udaipurgateway.com</a><br />
+              <strong>Phone:</strong> <a href="tel:+919279022649" className="text-primary hover:underline">+91 92790 22649</a>
             </p>
 
-            <p className="mt-12 text-sm text-gray-500 border-t pt-6">
+            <p className="mt-12 text-xs text-gray-500 border-t pt-6">
               Last updated: {new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
             </p>
           </div>

@@ -14,7 +14,7 @@ export default function Footer() {
               Nothing Like Travel LLP
             </span>
             <span className="text-xs text-gray-400 font-normal block mt-1">
-              Independent Travel Agency, Travel Information and Courier Assistance
+              Independent Travel Information, Itinerary Planning & Enquiry Assistance
             </span>
           </div>
           <p className="text-gray-300 mb-6 text-sm leading-relaxed max-w-sm">
@@ -34,7 +34,7 @@ export default function Footer() {
           <ul className="space-y-3 text-sm text-gray-300">
             <li><Link href="/" className="hover:text-accent transition-colors">Home</Link></li>
             <li><Link href="/about" className="hover:text-accent transition-colors">About Us</Link></li>
-            <li><Link href="/packages" className="hover:text-accent transition-colors">Holiday Packages</Link></li>
+            <li><Link href="/packages" className="hover:text-accent transition-colors">Holiday Itineraries</Link></li>
             <li><Link href="/destinations" className="hover:text-accent transition-colors">Destinations</Link></li>
             <li><Link href="/hotels" className="hover:text-accent transition-colors">Hotels & Resorts</Link></li>
             <li><Link href="/contact" className="hover:text-accent transition-colors">Contact Us</Link></li>
@@ -60,9 +60,9 @@ export default function Footer() {
           <h4 className="font-semibold text-lg mb-4">Contact Us</h4>
           <address className="not-italic text-sm text-gray-300 space-y-4">
             <p>
+              <span className="text-gray-400 block text-xs">Service Assistance Desk:</span>
               Lake Palace Road, Near City Palace Circle,<br />
-              Old City, Udaipur,<br />
-              Rajasthan 313001, India
+              Old City, Udaipur, Rajasthan 313001, India
             </p>
             <p>Phone: <Link href="tel:+919279022649" className="hover:text-accent transition-colors">+91 92790 22649</Link></p>
             <p>Email: <Link href="mailto:info@udaipurgateway.com" className="hover:text-accent transition-colors">info@udaipurgateway.com</Link></p>
@@ -71,34 +71,30 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Important Information & Disclaimer Notices */}
-      <div className="container mx-auto px-4 mb-12 space-y-4">
-        {/* Important Information */}
-        <div className="bg-[#02183b]/60 border border-emerald-600/40 rounded-xl p-4 md:p-5 flex items-start gap-4">
+      {/* Important Business Information: footer disclosure */}
+      <div className="container mx-auto px-4 mb-12">
+        <div className="bg-[#02183b]/70 border border-emerald-600/40 rounded-xl p-5 md:p-6 flex items-start gap-4">
           <div className="w-10 h-10 rounded-lg bg-emerald-950/80 border border-emerald-600/40 flex items-center justify-center shrink-0 mt-0.5">
             <ShieldCheck className="w-5 h-5 text-emerald-400" />
           </div>
-          <div>
+          <div className="space-y-2">
             <h4 className="text-white font-bold text-sm tracking-wider uppercase mb-1">
-              IMPORTANT INFORMATION
+              IMPORTANT BUSINESS INFORMATION
             </h4>
             <p className="text-xs md:text-sm text-gray-300 leading-relaxed">
-              Udaipur Gateway, operated by Nothing Like Travel LLP (GSTIN: 09AAZFN6228N1Z7), is an independent travel agency, travel information and courier assistance service. This website is 100% informational and does not process online bookings, reservations, or financial transactions. Rates, visiting schedules, and availability may vary and are determined by the respective property owners, monument authorities, and transport providers.
+              Udaipur Gateway is an independent travel information and enquiry assistance service operated by Nothing Like Travel LLP (GSTIN: 09AAZFN6228N1Z7).
             </p>
-          </div>
-        </div>
-
-        {/* Disclaimer */}
-        <div className="bg-[#02183b]/60 border border-emerald-600/40 rounded-xl p-4 md:p-5 flex items-start gap-4">
-          <div className="w-10 h-10 rounded-lg bg-emerald-950/80 border border-emerald-600/40 flex items-center justify-center shrink-0 mt-0.5">
-            <ShieldCheck className="w-5 h-5 text-emerald-400" />
-          </div>
-          <div>
-            <h4 className="text-white font-bold text-sm tracking-wider uppercase mb-1">
-              DISCLAIMER
-            </h4>
             <p className="text-xs md:text-sm text-gray-300 leading-relaxed">
-              Udaipur Gateway is operated by Nothing Like Travel LLP, an independent travel information and courier assistance agency. We are not the owner, operator, booking engine, or official representative of any hotel, palace, resort, monument trust, or transport service mentioned on this website. All brand names, trade marks, and property logos belong to their respective owners.
+              We provide general information about Udaipur destinations, sightseeing attractions, holiday itinerary ideas, accommodation options and local travel services.
+            </p>
+            <p className="text-xs md:text-sm text-gray-300 leading-relaxed">
+              Udaipur Gateway is not owned, operated, sponsored or officially affiliated with any hotel, resort, palace property, transport provider or government tourism authority mentioned on this website.
+            </p>
+            <p className="text-xs md:text-sm text-gray-300 leading-relaxed">
+              We do not operate an online booking engine or payment checkout facility. Submitting an enquiry does not constitute a confirmed booking or reservation.
+            </p>
+            <p className="text-xs md:text-sm text-gray-300 leading-relaxed">
+              All accommodation, transport and other travel services are independently provided by their respective service providers. Prices, availability, reservations and applicable terms must be confirmed directly with the relevant provider. All third-party trademarks, logos and property names belong to their respective owners.
             </p>
           </div>
         </div>
@@ -109,7 +105,7 @@ export default function Footer() {
         <div className="container mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-gray-300">
             &copy; {new Date().getFullYear()} Nothing Like Travel LLP. All rights reserved.<br />
-            GSTIN: 09AAZFN6228N1Z7 | Independent Travel Agency, Travel Information and Courier Assistance
+            GSTIN: 09AAZFN6228N1Z7 | Independent Travel Information, Itinerary Planning & Enquiry Assistance
           </div>
           <div className="flex flex-wrap gap-4 text-gray-400">
             <Link href="/disclaimer" className="hover:text-white transition-colors">Disclaimer</Link>

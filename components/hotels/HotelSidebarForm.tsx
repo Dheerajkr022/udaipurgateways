@@ -8,8 +8,8 @@ export default function HotelSidebarForm({ hotel }: { hotel: Hotel }) {
   return (
     <div id="enquiry" className="bg-white rounded-xl border border-gray-200 shadow-lg overflow-hidden">
       <div className="bg-[#0f284c] p-5 text-white">
-        <h3 className="text-lg font-bold">Plan Your Stay at {hotel.name}</h3>
-        <p className="text-xs text-gray-300 mt-1">Get the best assistance and customized offers from our travel experts.</p>
+        <h3 className="text-lg font-bold">Enquire About {hotel.name}</h3>
+        <p className="text-xs text-gray-300 mt-1">Request property information and general travel planning assistance.</p>
       </div>
       
       <div className="p-5">
@@ -48,7 +48,9 @@ export default function HotelSidebarForm({ hotel }: { hotel: Hotel }) {
             SUBMIT ENQUIRY
           </button>
           
-          <p className="text-[10px] text-center text-gray-400 mt-2">This is an enquiry form. Submission does not confirm a booking.</p>
+          <p className="text-[11px] text-center text-gray-500 mt-2 leading-relaxed">
+            This is an informational enquiry form. Submitting an enquiry does not confirm a reservation. For direct bookings, please contact {hotel.name} directly.
+          </p>
         </form>
       </div>
     </div>

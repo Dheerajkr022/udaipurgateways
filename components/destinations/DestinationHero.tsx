@@ -36,7 +36,7 @@ export default function DestinationHero({ destination }: { destination: Destinat
           <a href="#enquiry" className="bg-accent text-white px-8 py-3.5 rounded-md font-semibold hover:bg-accent-light transition-colors shadow-lg">
             ENQUIRE NOW
           </a>
-          <a href="#" className="bg-green-500 text-white px-8 py-3.5 rounded-md font-semibold hover:bg-green-600 transition-colors shadow-lg flex items-center gap-2">
+          <a href="https://wa.me/919279022649" target="_blank" rel="noopener noreferrer" className="bg-green-500 text-white px-8 py-3.5 rounded-md font-semibold hover:bg-green-600 transition-colors shadow-lg flex items-center gap-2">
             WHATSAPP US
           </a>
         </div>

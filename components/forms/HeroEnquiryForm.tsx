@@ -27,15 +27,15 @@ export default function HeroEnquiryForm() {
 
   return (
     <div className="bg-white rounded-xl p-6 shadow-2xl">
-      <h3 className="text-xl font-bold text-primary mb-6 text-center">PLAN YOUR NEXT TRIP</h3>
+      <h3 className="text-xl font-bold text-primary mb-6 text-center">REQUEST TRAVEL INFORMATION</h3>
       
       <form onSubmit={onSubmit} className="space-y-4">
         <div>
-          <label className="block text-sm font-medium text-text-primary mb-1">Where do you want to go?</label>
+          <label className="block text-sm font-medium text-text-primary mb-1">Where do you want to explore?</label>
           <input 
             type="text" 
             required
-            placeholder="e.g. Maldives, Goa, Dubai" 
+            placeholder="e.g. Lake Pichola, City Palace, Kumbhalgarh" 
             className="w-full border border-border-color rounded-md px-4 py-2.5 focus:outline-none focus:border-primary transition-colors text-text-primary"
           />
         </div>
@@ -73,8 +73,11 @@ export default function HeroEnquiryForm() {
           disabled={isSubmitting}
           className="w-full bg-primary text-white rounded-md py-3 font-semibold hover:bg-primary-light transition-colors mt-2 disabled:opacity-70"
         >
-          {isSubmitting ? "SENDING..." : "SEND ENQUIRY"}
+          {isSubmitting ? "SENDING..." : "REQUEST INFORMATION"}
         </button>
+        <p className="text-[11px] text-gray-500 text-center mt-2 leading-relaxed">
+          Submitting an enquiry does not confirm a reservation, booking or purchase.
+        </p>
       </form>
     </div>
   );

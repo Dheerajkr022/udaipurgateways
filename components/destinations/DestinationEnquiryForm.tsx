@@ -22,7 +22,7 @@ export default function DestinationEnquiryForm({ destination }: { destination: D
           <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path></svg>
         </div>
         <h3 className="text-2xl font-bold text-primary mb-2">Request Received!</h3>
-        <p className="text-gray-500 px-6">Our travel expert will contact you shortly to plan your {destination.name} holiday.</p>
+        <p className="text-gray-500 px-6">Our travel team will contact you shortly regarding travel information for {destination.name}.</p>
       </div>
     );
   }
@@ -30,8 +30,8 @@ export default function DestinationEnquiryForm({ destination }: { destination: D
   return (
     <div id="enquiry" className="bg-white rounded-2xl border border-gray-100 shadow-xl overflow-hidden sticky top-24">
       <div className="bg-primary p-6 text-white text-center">
-        <h2 className="text-2xl font-bold mb-1">Plan Your {destination.name} Holiday</h2>
-        <p className="text-primary-light text-sm">Get a free customized travel quote</p>
+        <h2 className="text-2xl font-bold mb-1">Enquire About {destination.name}</h2>
+        <p className="text-primary-light text-sm">Request destination information and sightseeing guidance</p>
       </div>
       
       <div className="p-6 sm:p-8">
@@ -61,9 +61,12 @@ export default function DestinationEnquiryForm({ destination }: { destination: D
             </div>
           </div>
           
-          <button type="submit" disabled={isSubmitting} className="w-full bg-accent text-white rounded-lg py-4 font-bold text-lg hover:bg-accent-light transition-colors disabled:opacity-70 mt-2 shadow-lg shadow-accent/30">
-            {isSubmitting ? "SENDING..." : "GET A FREE QUOTE"}
+          <button type="submit" disabled={isSubmitting} className="w-full bg-accent text-white rounded-lg py-4 font-bold text-base hover:bg-accent-light transition-colors disabled:opacity-70 mt-2 shadow-lg shadow-accent/30">
+            {isSubmitting ? "SENDING..." : "REQUEST TRAVEL INFORMATION"}
           </button>
+          <p className="text-[11px] text-gray-500 text-center mt-2 leading-relaxed">
+            Submitting an enquiry does not confirm a reservation, booking or purchase.
+          </p>
         </form>
       </div>
     </div>

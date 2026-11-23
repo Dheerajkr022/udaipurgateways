@@ -13,7 +13,7 @@ export default function AboutSection() {
           </h2>
           <div className="space-y-4 text-text-secondary leading-relaxed mb-8">
             <p>
-              <strong>Udaipur Gateway</strong> is operated by <strong>Nothing Like Travel LLP</strong>, an independent travel agency, travel information and courier assistance provider based in Udaipur, Rajasthan. We are committed to helping visitors explore the City of Lakes and the glorious Mewar region with genuine, reliable, and transparent travel information.
+              <strong>Udaipur Gateway</strong> is operated by <strong>Nothing Like Travel LLP</strong>, an independent travel information, itinerary planning and enquiry assistance service based in Udaipur, Rajasthan. We are committed to helping visitors explore the City of Lakes and the glorious Mewar region with genuine, reliable, and transparent travel information.
             </p>
             <p>
               Our wide range of travel advisory services includes personalized sightseeing guides for iconic landmarks like the City Palace, Lake Pichola, Jag Mandir, and Sajjangarh Monsoon Palace, detailed information on heritage palaces and lakeside resorts, and regional excursion circuits to Kumbhalgarh, Ranakpur, and Chittorgarh. In addition, we offer dedicated courier and parcel assistance for luggage, documents, and traditional Rajasthani handicrafts.
@@ -45,13 +45,13 @@ export default function AboutSection() {
               <CheckCircle2 className="w-6 h-6 text-primary shrink-0 mt-0.5" />
               <div>
                 <span className="font-semibold block mb-1">Brand Positioning:</span>
-                <span className="text-text-secondary text-sm">Independent Travel Agency, Travel Information and Courier Assistance</span>
+                <span className="text-text-secondary text-sm">Independent Travel Information, Itinerary Planning & Enquiry Assistance</span>
               </div>
             </li>
             <li className="flex items-start gap-4">
               <CheckCircle2 className="w-6 h-6 text-primary shrink-0 mt-0.5" />
               <div>
-                <span className="font-semibold block mb-1">Operating Location:</span>
+                <span className="font-semibold block mb-1">Service Location:</span>
                 <span className="text-text-secondary text-sm">Lake Palace Road, Near City Palace Circle, Udaipur, Rajasthan 313001</span>
               </div>
             </li>

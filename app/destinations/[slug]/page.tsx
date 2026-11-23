@@ -8,6 +8,7 @@ import DestinationTravelInfo from "@/components/destinations/DestinationTravelIn
 import DestinationEnquiryForm from "@/components/destinations/DestinationEnquiryForm";
 import PackageGrid from "@/components/packages/PackageGrid";
 import WhyChooseUs from "@/components/home/WhyChooseUs";
+import OurRoleNotice from "@/components/common/OurRoleNotice";
 import { Metadata } from "next";
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
@@ -53,8 +54,9 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
           </div>
 
           {/* Right Column: Sticky Form */}
-          <div className="lg:col-span-4 relative">
+          <div className="lg:col-span-4 relative space-y-6">
             <DestinationEnquiryForm destination={destination} />
+            <OurRoleNotice />
           </div>
 
         </div>

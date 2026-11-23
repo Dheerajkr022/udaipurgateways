@@ -11,7 +11,7 @@ export default function Header() {
 
   const links = [
     { name: "Home", href: "/" },
-    { name: "Holiday Packages", href: "/packages" },
+    { name: "Holiday Itineraries", href: "/packages" },
     { name: "Destinations", href: "/destinations" },
     { name: "Hotels & Resorts", href: "/hotels" },
     { name: "About Us", href: "/about" },
@@ -31,7 +31,7 @@ export default function Header() {
           </span>
           <span className="text-[9px] sm:text-[10px] text-text-secondary/80 font-normal tracking-tight mt-0.5">
             <span className="sm:hidden">Independent Travel Agency</span>
-            <span className="hidden sm:inline">Independent Travel Agency, Travel Information and Courier Assistance</span>
+            <span className="hidden sm:inline">Independent Travel Information, Itinerary Planning & Enquiry Assistance</span>
           </span>
         </Link>
 

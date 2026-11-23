@@ -32,7 +32,7 @@ export default function Hero() {
           </h1>
           <div className="space-y-3 text-lg text-gray-200 max-w-lg leading-relaxed">
             <p className="text-accent font-semibold text-sm uppercase tracking-wider">
-              Independent Travel Agency, Travel Information and Courier Assistance
+              Independent Travel Information, Itinerary Planning & Enquiry Assistance
             </p>
             <p>
               Discover majestic lake palaces, royal heritage hotels, historic sightseeing places, and authentic Rajasthan excursions with expert local guidance.

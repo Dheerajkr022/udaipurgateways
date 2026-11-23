@@ -5,8 +5,8 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
-  title: "Udaipur Gateway | Independent Travel Agency & Courier Assistance",
-  description: "Plan your visit to Udaipur, Rajasthan with Udaipur Gateway. Comprehensive travel guides, heritage palace stays, sightseeing places, excursion planning, and reliable courier assistance.",
+  title: "Udaipur Gateway | Independent Travel Information & Enquiry Assistance",
+  description: "Explore Udaipur, Rajasthan with Udaipur Gateway. Independent travel information, suggested itineraries, heritage hotel details, sightseeing guides, and enquiry assistance.",
   icons: {
     icon: [
       { url: "/icon.svg", type: "image/svg+xml" },

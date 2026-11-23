@@ -44,15 +44,23 @@ export default function HotelsAndCruises() {
   return (
     <section className="py-16 bg-white border-t border-border-color">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
+        <div className="text-center mb-10">
           <h2 className="text-3xl font-bold text-primary inline-flex items-center gap-4">
             <span className="h-px w-12 bg-border-color hidden sm:block"></span>
-            FEATURED HOTELS & RESORTS
+            HOTELS & RESORTS INFORMATION
             <span className="h-px w-12 bg-border-color hidden sm:block"></span>
           </h2>
-          <p className="mt-3 text-text-secondary max-w-2xl mx-auto text-sm sm:text-base font-medium">
-            Comprehensive travel information on Udaipur&apos;s world-famous luxury palace resorts, hill sanctuaries, and heritage stays
+          <p className="mt-3 text-text-secondary max-w-3xl mx-auto text-sm sm:text-base font-medium">
+            Explore information about Udaipur&apos;s heritage hotels, palace properties, luxury resorts and lakeside accommodation options.
           </p>
+          <div className="mt-4 p-4 rounded-xl bg-gray-50 border border-gray-200 max-w-3xl mx-auto text-xs text-text-secondary leading-relaxed text-left">
+            <p className="mb-1 font-medium text-gray-800">
+              Udaipur Gateway independently provides general property information, location details and travel enquiry assistance.
+            </p>
+            <p className="text-gray-600">
+              We are not the owner, operator, booking agent or officially appointed representative of the properties featured on this website. Property names and trademarks belong to their respective owners. For room availability, current rates, reservations and property-specific terms, please contact the respective property directly.
+            </p>
+          </div>
           <div className="flex flex-wrap justify-center gap-6 mt-4 text-xs font-semibold text-text-secondary">
             <span className="flex items-center gap-1.5 text-primary"><Star className="w-4 h-4 fill-amber-400 text-amber-400"/> Palace Resorts</span>
             <span className="flex items-center gap-1.5"><Bed className="w-4 h-4 text-primary"/> Heritage Havelis</span>

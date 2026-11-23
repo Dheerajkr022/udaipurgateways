@@ -4,23 +4,23 @@ export default function TrustStrip() {
   const items = [
     {
       icon: Layers,
-      title: "Wide Selection",
-      subtitle: "of Stays",
+      title: "Accommodation",
+      subtitle: "Information",
     },
     {
       icon: Clock,
-      title: "Free Cancellation",
+      title: "Property Cancellation",
       subtitle: "Information",
     },
     {
       icon: FileText,
-      title: "Transparent",
+      title: "General Travel",
       subtitle: "Information",
     },
     {
       icon: ShieldCheck,
-      title: "GST Registered",
-      subtitle: "Travel Agency",
+      title: "Independent Travel",
+      subtitle: "Information Service",
     },
     {
       icon: HeartHandshake,

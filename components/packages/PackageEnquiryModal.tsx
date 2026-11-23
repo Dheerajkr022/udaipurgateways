@@ -40,7 +40,7 @@ export default function PackageEnquiryModal({ pkg, onClose }: Props) {
         ) : (
           <div>
             <div className="bg-primary p-6 text-white text-center rounded-t-xl">
-              <h2 className="text-xl font-bold mb-1">Enquire Now</h2>
+              <h2 className="text-xl font-bold mb-1">Request Itinerary Information</h2>
               <p className="text-primary-light text-sm">{pkg.title}</p>
             </div>
             <div className="p-6">
@@ -68,8 +68,11 @@ export default function PackageEnquiryModal({ pkg, onClose }: Props) {
                   </div>
                 </div>
                 <button type="submit" disabled={isSubmitting} className="w-full bg-accent text-white rounded-md py-3.5 font-bold mt-4 hover:bg-accent-light transition-colors shadow-md">
-                  {isSubmitting ? "SENDING..." : "SUBMIT ENQUIRY"}
+                  {isSubmitting ? "SENDING..." : "REQUEST ITINERARY INFORMATION"}
                 </button>
+                <p className="text-[11px] text-gray-500 text-center mt-2 leading-relaxed">
+                  Submitting an enquiry does not confirm a reservation, booking or purchase. All services are independently provided by their respective operators.
+                </p>
               </form>
             </div>
           </div>
